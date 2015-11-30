@@ -983,4 +983,7 @@
     <string name="pref_unicode_stripping_non_encodable">Strip non-encodable characters</string>
     <string name="pref_unicode_stripping_all">Strip all unicode characters</string>
 
+    <!-- Lookup -->
+    <string name="report_as_spam_to">Report as spam to %s</string>
+
 </resources>
