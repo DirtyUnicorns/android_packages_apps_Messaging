@@ -973,4 +973,8 @@
 
     <!-- The accessibility text read when the sim chooser pops up to read the current selected sim -->
     <string name="selected_sim_content_message"><xliff:g id="selected_sim">%s</xliff:g> selected</string>
+
+    <!-- Swipe to delete -->
+    <string name="swipe_deletes_conversation_text">Swipe deletes conversation</string>
+
 </resources>
