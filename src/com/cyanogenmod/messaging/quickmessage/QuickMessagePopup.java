@@ -47,8 +47,9 @@ import com.android.messaging.datamodel.NoConfirmationSmsSendService;
 import com.android.messaging.datamodel.action.MarkAsReadAction;
 import com.android.messaging.ui.PlainTextEditText;
 import com.android.messaging.util.UnicodeFilter;
+import com.android.messaging.util.PrefsUtils;
 import com.cyanogenmod.messaging.ui.QuickMessageView;
-import com.cyanogenmod.messaging.util.PrefsUtils;
+
 
 import java.util.ArrayList;
 

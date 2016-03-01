@@ -15,7 +15,7 @@ import android.view.View;
 
 import com.android.contacts.common.util.MaterialColorMapUtils;
 import com.android.messaging.R;
-import com.cyanogenmod.messaging.util.PrefsUtils;
+import com.android.messaging.util.PrefsUtils;
 
 public class QuickMessageHelper {
 
