@@ -89,7 +89,7 @@
             android:title="@string/pref_quickmessage_title"
             android:dependency="@string/notifications_enabled_pref_key"
             android:summary="@string/pref_quickmessage_summary"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
         <SwitchPreference
             android:key="pref_key_close_all"
@@ -97,7 +97,7 @@
             android:summary="@string/pref_close_all_summary"
             android:layout="?android:attr/preferenceLayoutChild"
             android:dependency="pref_key_quickmessage"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceScreen

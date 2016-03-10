@@ -49,12 +49,12 @@ public class PrefsUtils {
 
     public static boolean isQuickMessagingEnabled() {
         final BuglePrefs prefs = BuglePrefs.getApplicationPrefs();
-        return prefs.getBoolean(QUICKMESSAGE_ENABLED, false);
+        return prefs.getBoolean(QUICKMESSAGE_ENABLED, true);
     }
 
     public static boolean isQuickMessagingCloseAllEnabled() {
         final BuglePrefs prefs = BuglePrefs.getApplicationPrefs();
-        return prefs.getBoolean(QM_CLOSE_ALL_ENABLED, false);
+        return prefs.getBoolean(QM_CLOSE_ALL_ENABLED, true);
     }
 
     public static UnicodeFilter getUnicodeFilterIfEnabled() {
