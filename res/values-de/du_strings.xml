@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2015 The Android Open Source Project
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+         http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Swipe to delete -->
+    <string name="swipe_to_delete_conversation_pref_title">Zum Löschen wischen</string>
+    <string name="swipe_to_delete_conversation_pref_summary">Nach rechts wischen, um eine Unterhaltung zu löschen</string>
+
+    <!-- Strip unicode -->
+    <string name="unicode_stripping_pref_title">Unicode umwandeln</string>
+    <string name="pref_unicode_stripping_leave_intact">Zeichen unberührt lassen</string>
+    <string name="pref_unicode_stripping_non_encodable">Uncodierbare Zeichen umwandeln</string>
+    <string name="pref_unicode_stripping_all">Alle Unicodezeichen umwandeln</string>
+
+    <!-- QUICKMESSAGE SUPPORT -->
+    <!-- Preferences -->
+    <string name="pref_quickmessage">Schnellantwort</string>
+    <string name="pref_quickmessage_title">Schnellantwort anzeigen</string>
+    <string name="pref_quickmessage_summary">Bei eingehenden SMS-Nachrichten automatisch Schnellantwort Pop-Up öffnen</string>
+    <string name="pref_close_all_title">Alle schließen</string>
+    <string name="pref_close_all_summary">Schließen-Taste schließt alle Nachrichten</string>
+    <string name="message_counter">%1$d von %2$d</string>
+
+    <!-- QM Dialog box buttons -->
+    <string name="button_close">Schließen</string>
+    <string name="button_view">Ansehen</string>
+    <string name="button_templates">Vorlagen</string>
+    <string name="qm_button_full_conversation">Vollständige Unterhaltung</string>
+
+    <!-- Hint text in message body field when keyboard is exposed -->
+    <string name="type_to_reply_text_enter_to_send">Zum Antworten tippen</string>
+
+    <!-- QM Toast -->
+    <string name="toast_sending_message">Sende Nachricht\u2026</string>
+
+    <!-- QM - Quick reply -->
+    <string name="qm_quick_reply">Schnellantwort</string>
+    <string name="send">Senden</string>
+    <string name="compose_message_hint_text">Nachricht eingeben</string>
+
+</resources>
