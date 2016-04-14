@@ -987,6 +987,19 @@
     <!-- Lookup -->
     <string name="report_as_spam_to">Report as spam to %s</string>
 
+    <!-- Storage specific Settings -->
+    <string name="sms_storage_pref_title">Storage</string>
+    <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
+    <string name="auto_delete_pref_title">Delete old messages</string>
+    <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> messages per conversation</string>
+    <string name="sms_delete_pref_title">Text message limit</string>
+    <string name="mms_delete_pref_title">Multimedia message limit</string>
+    <string name="set">Set</string>
+    <string name="no">Cancel</string>
+    <string name="pref_title_sms_delete">Text message limit</string>
+    <string name="pref_title_mms_delete">Multimedia message limit</string>
+    <string name="pref_messages_to_save">Set number of messages to save</string>
+
     <!-- QUICKMESSAGE SUPPORT -->
     <!-- Preferences -->
     <string name="pref_quickmessage">QuickMessage</string>
