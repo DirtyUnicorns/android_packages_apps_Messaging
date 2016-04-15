@@ -23,6 +23,7 @@
     <string name="advanced_category_pref_key" translatable="false">advanced_category</string>
     <string name="notifications_enabled_pref_key" translatable="false">notifications_enabled</string>
     <string name="unicode_stripping_pref_key" translatable="false">unicode_stripping_pref_key</string>
+    <string name="mms_auto_enable_data_pref_key" translatable="false">mms_auto_enable_data</string>
     <bool name="notifications_enabled_pref_default" translatable="false">true</bool>
     <string name="notification_sound_pref_key" translatable="false">notification_sound</string>
     <string name="notification_vibration_pref_key" translatable="false">notification_vibration</string>
