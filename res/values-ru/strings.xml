@@ -403,7 +403,7 @@
   <!-- Action title: Close -->
   <string name="action_close">Закрыть</string>
   <!-- Preference category: MMS messaging -->
-  <string name="mms_messaging_category_pref_title">MMS</string>
+  <string name="mms_messaging_category_pref_title">MMС</string>
   <!-- Preference category: Advanced -->
   <string name="advanced_category_pref_title">Дополнительные настройки</string>
   <!-- Preference category: Debug -->
@@ -658,7 +658,7 @@
   <!-- Shown in conversation as the snippet when there is no text and an attached vcard. [CHAR LIMIT=25] -->
   <string name="conversation_list_snippet_vcard">Карточка контакта</string>
   <!-- Indicates that the current message will be sent via MMS -->
-  <string name="mms_text">MMS</string>
+  <string name="mms_text">MMС</string>
   <!-- The string we display with the snack bar notification (very similar to toast) to undo the action that the notification is about. -->
   <string name="snack_bar_undo">Отменить</string>
   <string name="snack_bar_retry">Повторить</string>
@@ -879,34 +879,34 @@
   <!-- The accessibility text read when the sim chooser pops up to read the current selected sim -->
   <string name="selected_sim_content_message">SIM-карта выбрана: <xliff:g id="SELECTED_SIM">%s</xliff:g></string>
   <!-- Swipe to delete -->
-  <string name="swipe_to_delete_conversation_pref_title">Swipe to delete</string>
-  <string name="swipe_to_delete_conversation_pref_summary">Swipe to the right to delete a conversation</string>
+  <string name="swipe_to_delete_conversation_pref_title">Проведите для удаления</string>
+  <string name="swipe_to_delete_conversation_pref_summary">Проведите вправо чтобы удалить диалог</string>
   <!-- Strip unicode -->
-  <string name="unicode_stripping_pref_title">Strip unicode</string>
-  <string name="pref_unicode_stripping_leave_intact">Leave characters intact</string>
-  <string name="pref_unicode_stripping_non_encodable">Strip non-encodable characters</string>
-  <string name="pref_unicode_stripping_all">Strip all unicode characters</string>
+  <string name="unicode_stripping_pref_title">Раскрывать юникод</string>
+  <string name="pref_unicode_stripping_leave_intact">Оставить символы как есть</string>
+  <string name="pref_unicode_stripping_non_encodable">Заменить некодируемые символы</string>
+  <string name="pref_unicode_stripping_all">Заменять все символы юникода</string>
   <!-- Lookup -->
-  <string name="report_as_spam_to">Report as spam to %s</string>
+  <string name="report_as_spam_to">Сообщить о спаме</string>
   <!-- QUICKMESSAGE SUPPORT -->
   <!-- Preferences -->
-  <string name="pref_quickmessage">QuickMessage</string>
-  <string name="pref_quickmessage_title">Show QuickMessage</string>
-  <string name="pref_quickmessage_summary">Automatically open the QuickMessage pop-up for incoming SMS messages</string>
-  <string name="pref_close_all_title">Close all</string>
-  <string name="pref_close_all_summary">Close button closes all messages</string>
+  <string name="pref_quickmessage">Быстрый ответ</string>
+  <string name="pref_quickmessage_title">Показать быстрый ответ</string>
+  <string name="pref_quickmessage_summary">Автоматически открывать всплывающее окно быстрого ответа для входящих сообщений</string>
+  <string name="pref_close_all_title">Закрыть всё</string>
+  <string name="pref_close_all_summary">Кнопка «Закрыть» закрывает все сообщения</string>
   <string name="message_counter">%1$d of %2$d</string>
   <!-- QM Dialog box buttons -->
-  <string name="button_close">Close</string>
-  <string name="button_view">View</string>
-  <string name="button_templates">Templates</string>
-  <string name="qm_button_full_conversation">Full conversation</string>
+  <string name="button_close">Закрыть</string>
+  <string name="button_view">Просмотр</string>
+  <string name="button_templates">Шаблоны</string>
+  <string name="qm_button_full_conversation">Полный диалог</string>
   <!-- Hint text in message body field when keyboard is exposed -->
-  <string name="type_to_reply_text_enter_to_send">Type to reply</string>
+  <string name="type_to_reply_text_enter_to_send">Введите текст для ответа</string>
   <!-- QM Toast -->
-  <string name="toast_sending_message">Sending message\u2026</string>
+  <string name="toast_sending_message">Отправка сообщения</string>
   <!-- QM - Quick reply -->
-  <string name="qm_quick_reply">Quick reply</string>
-  <string name="send">Send</string>
-  <string name="compose_message_hint_text">Enter message</string>
+  <string name="qm_quick_reply">Быстрый ответ</string>
+  <string name="send">Отправить</string>
+  <string name="compose_message_hint_text">Введите сообщение</string>
 </resources>
