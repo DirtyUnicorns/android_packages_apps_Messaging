@@ -46,7 +46,7 @@ import com.android.messaging.util.BuglePrefs;
 import com.android.messaging.util.DebugUtils;
 import com.android.messaging.util.OsUtil;
 import com.android.messaging.util.PhoneUtils;
-import com.cyanogenmod.messaging.util.PrefsUtils;
+import com.android.messaging.util.PrefsUtils;
 
 public class ApplicationSettingsActivity extends BugleActionBarActivity {
     @Override
