@@ -863,7 +863,7 @@
   <!-- Lookup -->
   <string name="report_as_spam_to">Signaler comme spam à %s</string>
   <!-- Storage specific Settings -->
-  <string name="sms_storage_pref_title">Storage</string>
+  <string name="sms_storage_pref_title">Stockage</string>
   <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
   <string name="auto_delete_pref_title">Delete old messages</string>
   <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> messages per conversation</string>

@@ -863,21 +863,21 @@
   <!-- Lookup -->
   <string name="report_as_spam_to">Als Spam melden an %s</string>
   <!-- Storage specific Settings -->
-  <string name="sms_storage_pref_title">Storage</string>
-  <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
-  <string name="auto_delete_pref_title">Delete old messages</string>
-  <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> messages per conversation</string>
-  <string name="sms_delete_pref_title">Text message limit</string>
-  <string name="mms_delete_pref_title">Multimedia message limit</string>
-  <string name="set">Set</string>
-  <string name="no">Cancel</string>
-  <string name="pref_title_sms_delete">Text message limit</string>
-  <string name="pref_title_mms_delete">Multimedia message limit</string>
-  <string name="pref_messages_to_save">Set number of messages to save</string>
+  <string name="sms_storage_pref_title">Speicher</string>
+  <string name="pref_summary_auto_delete">Alte Nachrichten beim Erreichen des Limits löschen</string>
+  <string name="auto_delete_pref_title">Alte Nachrichten löschen</string>
+  <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> Nachrichten pro Unterhaltung</string>
+  <string name="sms_delete_pref_title">SMS-Limit</string>
+  <string name="mms_delete_pref_title">MMS-Limit</string>
+  <string name="set">Setzen</string>
+  <string name="no">Abbrechen</string>
+  <string name="pref_title_sms_delete">SMS-Limit</string>
+  <string name="pref_title_mms_delete">MMS-Limit</string>
+  <string name="pref_messages_to_save">Anzahl zu speichernder Nachrichten festlegen</string>
   <!-- Settings item for boolean option to auto -enable data for MMS messages -->
-  <string name="mms_auto_enable_data_pref_title">Auto-enable data</string>
+  <string name="mms_auto_enable_data_pref_title">Mobilfunkdaten automatisch aktivieren</string>
   <!-- Settings item description for boolean auto-enable data for MMS option -->
-  <string name="mms_auto_enable_data_pref_summary">Automatically enable mobile data for MMS messages</string>
+  <string name="mms_auto_enable_data_pref_summary">Mobilfunkdaten für MMS-Nachrichten automatisch aktivieren</string>
   <!-- QUICKMESSAGE SUPPORT -->
   <!-- Preferences -->
   <string name="pref_quickmessage">Schnellantwort</string>
