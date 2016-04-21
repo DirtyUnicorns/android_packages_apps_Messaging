@@ -837,21 +837,21 @@
   <!-- Lookup -->
   <string name="report_as_spam_to">向%s报告为垃圾信息</string>
   <!-- Storage specific Settings -->
-  <string name="sms_storage_pref_title">Storage</string>
-  <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
-  <string name="auto_delete_pref_title">Delete old messages</string>
-  <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> messages per conversation</string>
-  <string name="sms_delete_pref_title">Text message limit</string>
-  <string name="mms_delete_pref_title">Multimedia message limit</string>
+  <string name="sms_storage_pref_title">存储空间</string>
+  <string name="pref_summary_auto_delete">达到数量上限时删除旧信息</string>
+  <string name="auto_delete_pref_title">删除旧信息</string>
+  <string name="pref_summary_delete_limit">每个会话限存储 <xliff:g id="Count">%1$s</xliff:g> 条信息</string>
+  <string name="sms_delete_pref_title">短信限制</string>
+  <string name="mms_delete_pref_title">彩信限制</string>
   <string name="set">Set</string>
-  <string name="no">Cancel</string>
+  <string name="no">取消</string>
   <string name="pref_title_sms_delete">Text message limit</string>
   <string name="pref_title_mms_delete">Multimedia message limit</string>
-  <string name="pref_messages_to_save">Set number of messages to save</string>
+  <string name="pref_messages_to_save">设置要保存的信息数量</string>
   <!-- Settings item for boolean option to auto -enable data for MMS messages -->
-  <string name="mms_auto_enable_data_pref_title">Auto-enable data</string>
+  <string name="mms_auto_enable_data_pref_title">自动启用移动数据</string>
   <!-- Settings item description for boolean auto-enable data for MMS option -->
-  <string name="mms_auto_enable_data_pref_summary">Automatically enable mobile data for MMS messages</string>
+  <string name="mms_auto_enable_data_pref_summary">接收彩信时自动启用移动数据</string>
   <!-- QUICKMESSAGE SUPPORT -->
   <!-- Preferences -->
   <string name="pref_quickmessage">快捷信息</string>
