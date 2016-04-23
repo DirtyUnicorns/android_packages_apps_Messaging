@@ -843,10 +843,10 @@
   <string name="pref_summary_delete_limit">每个会话限存储 <xliff:g id="Count">%1$s</xliff:g> 条信息</string>
   <string name="sms_delete_pref_title">短信限制</string>
   <string name="mms_delete_pref_title">彩信限制</string>
-  <string name="set">Set</string>
+  <string name="set">设置</string>
   <string name="no">取消</string>
-  <string name="pref_title_sms_delete">Text message limit</string>
-  <string name="pref_title_mms_delete">Multimedia message limit</string>
+  <string name="pref_title_sms_delete">短信限制</string>
+  <string name="pref_title_mms_delete">彩信限制</string>
   <string name="pref_messages_to_save">设置要保存的信息数量</string>
   <!-- Settings item for boolean option to auto -enable data for MMS messages -->
   <string name="mms_auto_enable_data_pref_title">自动启用移动数据</string>
