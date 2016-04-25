@@ -889,7 +889,7 @@
   <!-- Lookup -->
   <string name="report_as_spam_to">Сообщить о спаме</string>
   <!-- Storage specific Settings -->
-  <string name="sms_storage_pref_title">Storage</string>
+  <string name="sms_storage_pref_title">Память</string>
   <string name="pref_summary_auto_delete">Удалять старые сообщения по достижении макс. количества</string>
   <string name="auto_delete_pref_title">Удалить старые сообщения</string>
   <string name="pref_summary_delete_limit">сообщений в цепочке</string>
@@ -911,7 +911,7 @@
   <string name="pref_quickmessage_summary">Автоматически открывать всплывающее окно быстрого ответа для входящих сообщений</string>
   <string name="pref_close_all_title">Закрыть всё</string>
   <string name="pref_close_all_summary">Кнопка «Закрыть» закрывает все сообщения</string>
-  <string name="message_counter">%1$d of %2$d</string>
+  <string name="message_counter">из</string>
   <!-- QM Dialog box buttons -->
   <string name="button_close">Закрыть</string>
   <string name="button_view">Просмотр</string>

@@ -21,7 +21,7 @@
   <!-- The name of the application as it appears in external share intent dialogs -->
   <string name="share_intent_label">SMS/MMS</string>
   <!-- The title when selecting a conversation to share to -->
-  <string name="share_intent_activity_label">Konversation auswählen</string>
+  <string name="share_intent_activity_label">Unterhaltung auswählen</string>
   <string name="action_settings">Einstellungen</string>
   <string name="sendButtonContentDescription">Nachricht senden</string>
   <string name="attachMediaButtonContentDescription">Anhang hinzufügen</string>
@@ -494,7 +494,7 @@
   <!-- Title for the general settings section in the "People and options" activity -->
   <string name="general_settings_title">Allgemein</string>
   <!-- Title for the list of participants in the "People and options" activity -->
-  <string name="participant_list_title">Personen in dieser Konversation</string>
+  <string name="participant_list_title">Personen in dieser Unterhaltung</string>
   <!-- Title for the phone call button in the action bar that lets the user call a participant in an SMS conversation -->
   <string name="action_call">Anrufen</string>
   <!-- The hint text shown in the message compose input box prompting the user to send a message -->
@@ -809,7 +809,7 @@
   <!-- Content description for new message button in desktop widget -->
   <string name="widget_new_message_content_description">Neue Nachricht</string>
   <!-- Content description for conversation list button in desktop widget -->
-  <string name="widget_conversation_list_content_description">Konversationsliste</string>
+  <string name="widget_conversation_list_content_description">Unterhaltungsliste</string>
   <!-- Shown when loading conversations in the widget -->
   <string name="loading_conversations">Unterhaltungen werden geladen</string>
   <!-- Shown when loading messages in the widget -->
@@ -819,7 +819,7 @@
   <!-- Displayed at the beginning of the message list in the widget. Tapping on this will open bugle home activity. [CHAR LIMIT=35] -->
   <string name="view_more_messages">Weitere Nachrichten ansehen</string>
   <!-- Toast message telling the user a conversation has been deleted -->
-  <string name="conversation_deleted">Konversation gelöscht</string>
+  <string name="conversation_deleted">Unterhaltung gelöscht</string>
   <!-- Displayed when user adds a new conversation widget. Tapping on the widget in this
           mode will bring user to the conversation selection screen -->
   <string name="tap_to_configure">Unterhaltung gelöscht. Tippen Sie hier, um eine andere Unterhaltung zu sehen.</string>
