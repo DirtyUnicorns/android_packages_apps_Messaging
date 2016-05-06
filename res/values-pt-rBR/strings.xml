@@ -19,28 +19,28 @@
   <!-- The name of the application as it appears under the main Launcher icon and in various activity titles -->
   <string name="app_name">Mensagens</string>
   <!-- The name of the application as it appears in external share intent dialogs -->
-  <string name="share_intent_label">Messaging</string>
+  <string name="share_intent_label">Mensagens</string>
   <!-- The title when selecting a conversation to share to -->
-  <string name="share_intent_activity_label">Select conversation</string>
-  <string name="action_settings">Settings</string>
-  <string name="sendButtonContentDescription">Send Message</string>
-  <string name="attachMediaButtonContentDescription">Add an attachment</string>
-  <string name="help_and_feedback_activity_label">Help</string>
-  <string name="welcome">Welcome</string>
-  <string name="skip">Skip</string>
-  <string name="next_with_arrow">Next &gt;</string>
+  <string name="share_intent_activity_label">Selecionar conversa</string>
+  <string name="action_settings">Configurações</string>
+  <string name="sendButtonContentDescription">Enviar mensagem</string>
+  <string name="attachMediaButtonContentDescription">Adicionar um anexo</string>
+  <string name="help_and_feedback_activity_label">Ajuda</string>
+  <string name="welcome">Bem-vindo(a)</string>
+  <string name="skip">Ignorar</string>
+  <string name="next_with_arrow">Próximo -&gt;</string>
   <string name="next">Next</string>
   <string name="exit">Exit</string>
-  <string name="settings_with_arrow">Settings &gt;</string>
-  <string name="settings">Settings</string>
+  <string name="settings_with_arrow">Configurações &gt;</string>
+  <string name="settings">Configurações</string>
   <!-- Inform user of the names of permissions that are required to use the app -->
-  <string name="required_permissions_promo">Messaging needs permission to SMS, Phone and Contacts.</string>
-  <string name="enable_permission_procedure">You can change permissions in Settings &gt; Apps &gt; Messaging &gt; Permissions.</string>
-  <string name="enable_permission_procedure_description">You can change permissions in Settings, Apps, Messaging, Permissions.</string>
+  <string name="required_permissions_promo">A aplicação Mensagens necessita de autorização para SMS, Telefone e Contatos.</string>
+  <string name="enable_permission_procedure">Pode alterar as permissões em Configurações &gt; Aplicações &gt; Mensagens &gt; Permissões.</string>
+  <string name="enable_permission_procedure_description">Você pode alterar as permissões em Configurações, Aplicações, Mensagens, Permissões.</string>
   <!-- The tab header for the frequently used contacts list -->
-  <string name="contact_picker_frequents_tab_title">Frequents</string>
+  <string name="contact_picker_frequents_tab_title">Frequentes</string>
   <!-- The tab header for all contacts list -->
-  <string name="contact_picker_all_contacts_tab_title">All contacts</string>
+  <string name="contact_picker_all_contacts_tab_title">Todos os contatos</string>
   <!-- The text on the list item in the contact picker that allows a user to send an SMS directly
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
   <string name="contact_list_send_to_text">Send to <xliff:g id="destination">%s</xliff:g></string>
