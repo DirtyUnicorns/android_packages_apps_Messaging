@@ -29,8 +29,8 @@
   <string name="welcome">Bem-vindo(a)</string>
   <string name="skip">Ignorar</string>
   <string name="next_with_arrow">Próximo -&gt;</string>
-  <string name="next">Next</string>
-  <string name="exit">Exit</string>
+  <string name="next">Avançar</string>
+  <string name="exit">Sair</string>
   <string name="settings_with_arrow">Configurações &gt;</string>
   <string name="settings">Configurações</string>
   <!-- Inform user of the names of permissions that are required to use the app -->
@@ -43,30 +43,30 @@
   <string name="contact_picker_all_contacts_tab_title">Todos os contatos</string>
   <!-- The text on the list item in the contact picker that allows a user to send an SMS directly
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
-  <string name="contact_list_send_to_text">Send to <xliff:g id="destination">%s</xliff:g></string>
-  <string name="mediapicker_cameraChooserDescription">Capture pictures or video</string>
-  <string name="mediapicker_galleryChooserDescription">Choose images from this device</string>
-  <string name="mediapicker_audioChooserDescription">Record audio</string>
-  <string name="mediapicker_gallery_title">Choose photo</string>
-  <string name="mediapicker_gallery_item_selected_content_description">The media is selected.</string>
-  <string name="mediapicker_gallery_item_unselected_content_description">The media is unselected.</string>
-  <string name="mediapicker_gallery_title_selection"><xliff:g id="count">%d</xliff:g> selected</string>
+  <string name="contact_list_send_to_text">Enviar para <xliff:g id="Destination">%s</xliff:g></string>
+  <string name="mediapicker_cameraChooserDescription">Capturar imagens ou vídeo</string>
+  <string name="mediapicker_galleryChooserDescription">Escolher imagens deste dispositivo</string>
+  <string name="mediapicker_audioChooserDescription">Gravar áudio</string>
+  <string name="mediapicker_gallery_title">Escolher foto</string>
+  <string name="mediapicker_gallery_item_selected_content_description">A mídia está selecionada.</string>
+  <string name="mediapicker_gallery_item_unselected_content_description">A mídia não está selecionada.</string>
+  <string name="mediapicker_gallery_title_selection"><xliff:g id="Count">%d</xliff:g> selecionado(s)</string>
   <!-- example: "image January 17 2015 1 59 pm" -->
-  <string name="mediapicker_gallery_image_item_description">image <xliff:g id="date">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
-  <string name="mediapicker_gallery_image_item_description_no_date">image</string>
-  <string name="mediapicker_audio_title">Record audio</string>
-  <string name="action_share">Share</string>
-  <string name="posted_just_now">"Just now"</string>
-  <string name="posted_now">"Now"</string>
+  <string name="mediapicker_gallery_image_item_description">imagem de <xliff:g id="Date">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
+  <string name="mediapicker_gallery_image_item_description_no_date">imagem</string>
+  <string name="mediapicker_audio_title">Gravar áudio</string>
+  <string name="action_share">Compartilhar</string>
+  <string name="posted_just_now">"Agora mesmo"</string>
+  <string name="posted_now">"Agora"</string>
   <!-- Abbreviated message to express that something occurred some number of minutes in the past (e.g., 5 minutes ago). -->
   <plurals name="num_minutes_ago">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> min</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> mins</item>
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> minuto</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> minutos</item>
   </plurals>
   <!-- Abbreviated message to express that something occurred some number of hours in the past (e.g., 5 hours ago). -->
   <plurals name="num_hours_ago">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> hour</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> hours</item>
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> hora</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> hora</item>
   </plurals>
   <!-- Abbreviated message to express that something occurred some number of days in the past (e.g., 5 days ago). -->
   <plurals name="num_days_ago">
@@ -91,13 +91,13 @@
   </plurals>
   <plurals name="year_count">
     <!-- Singular case -->
-    <item quantity="one">a year</item>
+    <item quantity="one">um ano</item>
     <!-- Plural case -->
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> years</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> anos</item>
   </plurals>
   <!-- Title of the class-0 message activity. -->
-  <string name="class_0_message_activity">Class 0 message</string>
-  <string name="save">Save</string>
+  <string name="class_0_message_activity">Mensagem de classe 0</string>
+  <string name="save">Salvar</string>
   <!-- Text for SMS storage low text, when auto delete is enabled -->
   <string name="sms_storage_low_auto_delete_enabled_dialog_text">Device is low on space. Messaging will automatically delete older messages to free up space.</string>
   <!-- Title for SMS storage low notification and dialog. Must match the framework's notification title, i.e. //frameworks/base/core/res/res/values/strings.xml#low_internal_storage_view_title -->
