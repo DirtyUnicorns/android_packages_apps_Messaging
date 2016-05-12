@@ -70,8 +70,8 @@
   </plurals>
   <!-- Abbreviated message to express that something occurred some number of days in the past (e.g., 5 days ago). -->
   <plurals name="num_days_ago">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> day</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> days</item>
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> dia</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> dias</item>
   </plurals>
   <!--
         Plurals used for the duration in free sms storage action and confirm strings above
@@ -79,15 +79,15 @@
     -->
   <plurals name="week_count">
     <!-- Singular case -->
-    <item quantity="one">a week</item>
+    <item quantity="one">uma semana</item>
     <!-- Plural case -->
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> weeks</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> semanas</item>
   </plurals>
   <plurals name="month_count">
     <!-- Singular case -->
-    <item quantity="one">a month</item>
+    <item quantity="one">um mês</item>
     <!-- Plural case -->
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> months</item>
+    <item quantity="other">um mês<xliff:g id="count">%d</xliff:g> meses</item>
   </plurals>
   <plurals name="year_count">
     <!-- Singular case -->
@@ -107,23 +107,23 @@
   <!-- Ticker for SMS storage low notification -->
   <string name="sms_storage_low_notification_ticker">Low SMS storage. You may need to delete messages.</string>
   <!-- Title for asking the user to enter their phone number -->
-  <string name="enter_phone_number_title">Confirm your phone number</string>
+  <string name="enter_phone_number_title">Confirmar número de telefone</string>
   <!-- Text for asking the user to enter their phone number -->
-  <string name="enter_phone_number_text">This one-time step will ensure Messaging will deliver your group messages properly.</string>
+  <string name="enter_phone_number_text">Este único passo assegura que a aplicação Mensagens irá entregar as suas mensagens de grupo corretamente.</string>
   <!-- EditText hint for asking the user to enter their phone number -->
-  <string name="enter_phone_number_hint">Phone number</string>
+  <string name="enter_phone_number_hint">Número de telefone</string>
   <!-- Free SMS storage actions -->
-  <string name="delete_all_media">Delete all messages with media</string>
+  <string name="delete_all_media">Eliminar todas as mensagens com mídia</string>
   <string name="delete_oldest_messages">Delete messages older than <xliff:g id="duration">%s</xliff:g></string>
   <string name="auto_delete_oldest_messages">Auto-delete messages older than <xliff:g id="duration">%s</xliff:g></string>
   <string name="ignore">Ignore</string>
   <!-- Free SMS storage action confirm dialog message -->
   <string name="delete_all_media_confirmation">Delete all messages with media?</string>
-  <string name="delete_oldest_messages_confirmation">Delete messages older than <xliff:g id="duration">%s</xliff:g>?</string>
-  <string name="auto_delete_oldest_messages_confirmation">Delete messages older than <xliff:g id="duration">%s</xliff:g> and turn on auto-delete?</string>
+  <string name="delete_oldest_messages_confirmation">Eliminar mensagens com mais de <xliff:g id="Duration">%s</xliff:g>?</string>
+  <string name="auto_delete_oldest_messages_confirmation">Eliminar mensagens com mais de <xliff:g id="Duration">%s</xliff:g> e ativar eliminação automática?</string>
   <!-- ####### Strings to support the mms/sms service ####### -->
   <!-- Prefix for accessibility to indicate who the sender of a plain text message is. -->
-  <string name="incoming_text_sender_content_description"><xliff:g id="sender">%s</xliff:g> said</string>
+  <string name="incoming_text_sender_content_description"><xliff:g id="sender">%s</xliff:g> disse</string>
   <string name="outgoing_text_sender_content_description">You said</string>
   <!-- Prefix for accessibility to indicate who the sender of text with hyperlinks, an attachment, or yet-to-be-downloaded message is. -->
   <string name="incoming_sender_content_description">Message from <xliff:g id="sender">%s</xliff:g></string>
