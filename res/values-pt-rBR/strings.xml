@@ -101,7 +101,7 @@
   <!-- Text for SMS storage low text, when auto delete is enabled -->
   <string name="sms_storage_low_auto_delete_enabled_dialog_text">O dispositivo tem pouco espaço disponível. A aplicação Mensagens elimina automaticamente mensagens mais antigas para liberar espaço.</string>
   <!-- Title for SMS storage low notification and dialog. Must match the framework's notification title, i.e. //frameworks/base/core/res/res/values/strings.xml#low_internal_storage_view_title -->
-  <string name="sms_storage_low_title">Storage space running out</string>
+  <string name="sms_storage_low_title">Pouco espaço de armazenamento</string>
   <!-- Text for SMS storage low notification and dialog -->
   <string name="sms_storage_low_text">Messaging might not send or receive messages until more space is available on your device.</string>
   <!-- Ticker for SMS storage low notification -->
