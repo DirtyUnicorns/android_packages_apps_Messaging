@@ -103,9 +103,9 @@
   <!-- Title for SMS storage low notification and dialog. Must match the framework's notification title, i.e. //frameworks/base/core/res/res/values/strings.xml#low_internal_storage_view_title -->
   <string name="sms_storage_low_title">Pouco espaço de armazenamento</string>
   <!-- Text for SMS storage low notification and dialog -->
-  <string name="sms_storage_low_text">Messaging might not send or receive messages until more space is available on your device.</string>
+  <string name="sms_storage_low_text">A aplicação Mensagens pode não enviar ou receber mensagens até que exista mais espaço disponível no dispositivo.</string>
   <!-- Ticker for SMS storage low notification -->
-  <string name="sms_storage_low_notification_ticker">Low SMS storage. You may need to delete messages.</string>
+  <string name="sms_storage_low_notification_ticker">Armazenamento SMS reduzido. Talvez você precise eliminar mensagens.</string>
   <!-- Title for asking the user to enter their phone number -->
   <string name="enter_phone_number_title">Confirmar número de telefone</string>
   <!-- Text for asking the user to enter their phone number -->
@@ -114,70 +114,70 @@
   <string name="enter_phone_number_hint">Número de telefone</string>
   <!-- Free SMS storage actions -->
   <string name="delete_all_media">Eliminar todas as mensagens com mídia</string>
-  <string name="delete_oldest_messages">Delete messages older than <xliff:g id="duration">%s</xliff:g></string>
-  <string name="auto_delete_oldest_messages">Auto-delete messages older than <xliff:g id="duration">%s</xliff:g></string>
-  <string name="ignore">Ignore</string>
+  <string name="delete_oldest_messages">Eliminar mensagens com mais de <xliff:g id="Duration">%s</xliff:g></string>
+  <string name="auto_delete_oldest_messages">Eliminar automaticamente mensagens com mais de <xliff:g id="Duration">%s</xliff:g></string>
+  <string name="ignore">Ignorar</string>
   <!-- Free SMS storage action confirm dialog message -->
-  <string name="delete_all_media_confirmation">Delete all messages with media?</string>
+  <string name="delete_all_media_confirmation">Eliminar todas as mensagens com mídia?</string>
   <string name="delete_oldest_messages_confirmation">Eliminar mensagens com mais de <xliff:g id="Duration">%s</xliff:g>?</string>
   <string name="auto_delete_oldest_messages_confirmation">Eliminar mensagens com mais de <xliff:g id="Duration">%s</xliff:g> e ativar eliminação automática?</string>
   <!-- ####### Strings to support the mms/sms service ####### -->
   <!-- Prefix for accessibility to indicate who the sender of a plain text message is. -->
   <string name="incoming_text_sender_content_description"><xliff:g id="sender">%s</xliff:g> disse</string>
-  <string name="outgoing_text_sender_content_description">You said</string>
+  <string name="outgoing_text_sender_content_description">Você disse</string>
   <!-- Prefix for accessibility to indicate who the sender of text with hyperlinks, an attachment, or yet-to-be-downloaded message is. -->
-  <string name="incoming_sender_content_description">Message from <xliff:g id="sender">%s</xliff:g></string>
-  <string name="outgoing_sender_content_description">You sent a message</string>
+  <string name="incoming_sender_content_description">Mensagem de <xliff:g id="sender">%s</xliff:g></string>
+  <string name="outgoing_sender_content_description">Você enviou uma mensagem</string>
   <!-- While sending a message display this message. -->
-  <string name="message_status_sending">Sending&#8230;</string>
+  <string name="message_status_sending">Enviando&#8230;</string>
   <!-- When sending a message failed display this message. -->
-  <string name="message_status_send_failed">Not sent. Touch to try again.</string>
+  <string name="message_status_send_failed">Não enviado. Toque para tentar novamente.</string>
   <!-- When retrying sending for a message. -->
-  <string name="message_status_send_retrying">Not sent. Trying again&#8230;</string>
+  <string name="message_status_send_retrying">Não enviado. Tentando novamente&#8230;</string>
   <!-- When showing resend action display this message. -->
-  <string name="message_status_resend">Resend or delete</string>
+  <string name="message_status_resend">Reenviar ou eliminar</string>
   <!-- When sending a message to an emergency number failed display this message in the conversation. -->
-  <string name="message_status_send_failed_emergency_number">Please make a voice call to emergency services. Your text message could not be delivered at this time.</string>
+  <string name="message_status_send_failed_emergency_number">Faça uma chamada de voz para os serviços de emergência. Neste momento, não foi possível entregar a sua mensagem de texto.</string>
   <!-- When showing resend action, display this message. -->
-  <string name="message_status_failed">Failed</string>
+  <string name="message_status_failed">Falha</string>
   <!-- Title line for an MMS requiring manual download. -->
-  <string name="message_title_manual_download">New MMS message to download</string>
+  <string name="message_title_manual_download">Nova mensagem MMS para transferir</string>
   <!-- Title line for an MMS auto-downloading. -->
-  <string name="message_title_downloading">New MMS message</string>
+  <string name="message_title_downloading">Nova mensagem MMS</string>
   <!-- Title line for MMS which failed to download. -->
-  <string name="message_title_download_failed">Couldn\'t download</string>
+  <string name="message_title_download_failed">Não foi possível transferir</string>
   <!-- Timestamp line for MMS which failed to download. -->
-  <string name="message_status_download_failed">Touch to try again</string>
+  <string name="message_status_download_failed">Toque para tentar novamente</string>
   <!-- Timestamp line for MMS which failed to download. -->
-  <string name="message_status_download">Touch to download</string>
+  <string name="message_status_download">Toque para transferir</string>
   <!-- Timestamp line for MMS which is selected. -->
-  <string name="message_status_download_action">Download or delete</string>
+  <string name="message_status_download_action">Transferir ou eliminar</string>
   <!-- Timestamp line to display while downloading a message. -->
-  <string name="message_status_downloading">Downloading&#8230;</string>
+  <string name="message_status_downloading">Transferindo&#8230;</string>
   <!-- Timestamp line for MMS for expired or invalid message. -->
-  <string name="message_status_download_error">Message expired or not available</string>
+  <string name="message_status_download_error">Mensagem expirada ou não disponível</string>
   <!-- Display this info line with an MMS notification -->
-  <string name="mms_info">size: <xliff:g id="messageSize">%1$s</xliff:g>, expiration: <xliff:g id="messageExpire">%2$s</xliff:g></string>
+  <string name="mms_info">tamanho: <xliff:g id="messageSize">%1$s</xliff:g>, data de validade: <xliff:g id="messageExpire">%2$s</xliff:g></string>
   <!-- While sending a message, if it has invalid recipient, display this message. -->
-  <string name="invalid_destination">Can\'t send. Recipient not valid.</string>
+  <string name="invalid_destination">Não é possível enviar. O destinatário é inválido.</string>
   <!-- While sending a message, this error is expected to be generated when user does not have
          MMS enabled on his account. [CHAR LIMIT=NONE] -->
-  <string name="service_not_activated">Service not activated on network</string>
+  <string name="service_not_activated">Serviço não ativado na rede</string>
   <!-- If a message can't be sent because of a MMSC network problem, show this toast. [CHAR LIMIT=NONE] -->
-  <string name="service_network_problem">Couldn\'t send due to network problem</string>
+  <string name="service_network_problem">Não foi possível enviar devido a um problema de rede</string>
   <!-- If a message has expired and is no longer available on MMSC, show this toast. [CHAR LIMIT=NONE] -->
-  <string name="service_message_not_found">Message expired or not available</string>
+  <string name="service_message_not_found">Mensagem expirada ou não disponível</string>
   <!-- Download Manager -->
   <!-- When an error occurs downloading a new message and a subject isn't available, substitute
          this default subject. -->
-  <string name="no_subject">(No subject)</string>
+  <string name="no_subject">(Sem assunto)</string>
   <!-- When an error occurs downloading a new message and the sender is unknown, substitute
          this default text. -->
-  <string name="unknown_sender">Unknown sender</string>
-  <string name="delivered_status_content_description">Delivered</string>
+  <string name="unknown_sender">Remetente desconhecido</string>
+  <string name="delivered_status_content_description">Entregue</string>
   <!-- When an error occurs downloading a new message, display this message.
          An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
-  <string name="dl_failure_notification">Couldn\'t download message <xliff:g id="subject">%1$s</xliff:g> from <xliff:g id="from">%2$s</xliff:g>.</string>
+  <string name="dl_failure_notification">Não foi possível transferir a mensagem <xliff:g id="Subject">%1$s</xliff:g> de <xliff:g id="From">%2$s</xliff:g>.</string>
   <!-- When a database error occurs due to low memory this toast is shown. -->
   <string name="low_memory">Couldn\'t complete database operation due to low memory</string>
   <!-- notification line 1 for "there are some failed messages" -->
@@ -185,19 +185,19 @@
   <!-- notification line 1 for "there are some failed messages" -->
   <string name="notification_send_failures_line1_plural">Some messages not sent in Messaging</string>
   <plurals name="notification_send_failures">
-    <item quantity="one"><xliff:g id="messages">%d</xliff:g> messages in one conversation</item>
-    <item quantity="other"><xliff:g id="messages">%d</xliff:g> messages in <xliff:g id="conversations">%d</xliff:g> conversations</item>
+    <item quantity="one"><xliff:g id="messages">%d</xliff:g>mensagens em uma conversa</item>
+    <item quantity="other"><xliff:g id="messages">%d</xliff:g>mensagens em <xliff:g id="conversations">%d</xliff:g> conversas</item>
   </plurals>
   <!-- notification line 1 for download failed -->
-  <string name="notification_download_failures_line1_singular">Message not downloaded</string>
+  <string name="notification_download_failures_line1_singular">Mensagem não transferida</string>
   <!-- notification line 1 for multiple downloads failed -->
-  <string name="notification_download_failures_line1_plural">Some messages not downloaded in Messaging</string>
+  <string name="notification_download_failures_line1_plural">Algumas mensagens não foram transferidas na aplicação Mensagens</string>
   <plurals name="notification_download_failures">
-    <item quantity="one"><xliff:g id="messages">%d</xliff:g> messages in one conversation</item>
-    <item quantity="other"><xliff:g id="messages">%d</xliff:g> messages in <xliff:g id="conversations">%d</xliff:g> conversations</item>
+    <item quantity="one"><xliff:g id="messages">%d</xliff:g> mensagens em uma conversa</item>
+    <item quantity="other"><xliff:g id="messages">%d</xliff:g> mensagens em <xliff:g id="conversations">%d</xliff:g> conversas</item>
   </plurals>
   <!-- Notification title when emergency SMS (e.g. to 911) fails to send -->
-  <string name="notification_emergency_send_failure_line1">Message to <xliff:g id="number">%1$s</xliff:g> not sent</string>
+  <string name="notification_emergency_send_failure_line1">Mensagem para <xliff:g id="Number">%1$s</xliff:g> não enviada</string>
   <!-- Notification content when emergency SMS fails to send -->
   <string name="notification_emergency_send_failure_line2">
         Please make a voice call to emergency services. Your text message to
@@ -209,17 +209,17 @@
     <item quantity="other"><xliff:g id="messages">%d</xliff:g> new messages</item>
   </plurals>
   <!-- Text for starting a new conversation button in the compose UI -->
-  <string name="start_conversation">Start</string>
-  <string name="camera_error_opening">Camera not available</string>
+  <string name="start_conversation">Início</string>
+  <string name="camera_error_opening">Câmara não disponível</string>
   <string name="camera_error_unknown">Camera not available</string>
-  <string name="camera_error_video_init_fail">Video capture not available</string>
+  <string name="camera_error_video_init_fail">Captura de vídeo não disponível</string>
   <!-- Error message when we are unable to write a picture or video file because of an error writing to storage (usually because insufficient space) -->
-  <string name="camera_error_storage_fail">Can\'t save media</string>
-  <string name="camera_error_failure_taking_picture">Can\'t take picture</string>
+  <string name="camera_error_storage_fail">Não foi possível salvar a mídia</string>
+  <string name="camera_error_failure_taking_picture">Não é possível tirar a fotografia</string>
   <!-- Content description text for Back button on the action bar -->
-  <string name="back">Back</string>
+  <string name="back">Voltar</string>
   <!-- Action menu title for showing archived conversations -->
-  <string name="action_menu_show_archived">Archived</string>
+  <string name="action_menu_show_archived">Arquivadas</string>
   <!-- Action menu title for deleting selected conversations in conversation list -->
   <string name="action_delete">Delete</string>
   <!-- Action menu title for archiving selected conversations in conversation list -->
@@ -231,14 +231,14 @@
   <!-- Action menu title for turning on notification for the selected conversations in conversation list -->
   <string name="action_notification_on">Turn on notifications</string>
   <!-- Action menu title for adding the contacts for the selected conversations in conversation list -->
-  <string name="action_add_contact">Add contact</string>
+  <string name="action_add_contact">Adicionar contacto</string>
   <!-- Action menu title for downloading failed message selected in conversation -->
   <string name="action_download">Download</string>
   <!-- Action menu title for sending failed message selected in conversation -->
-  <string name="action_send">Send</string>
+  <string name="action_send">Enviar</string>
   <!-- Action menu title for deleting failed message selected in conversation -->
-  <string name="action_delete_message">Delete</string>
-  <string name="delete_message_confirmation_dialog_title">Delete this message?</string>
+  <string name="action_delete_message">Excluir</string>
+  <string name="delete_message_confirmation_dialog_title">Apagar esta mensagem?</string>
   <string name="delete_message_confirmation_dialog_text">This action cannot be undone.</string>
   <string name="delete_message_confirmation_button">Delete</string>
   <!-- Alert dialog title to accept or decline deleting conversation(s). -->
@@ -249,15 +249,15 @@
   <!-- Alert dialog accept deleting this conversation button. -->
   <string name="delete_conversation_confirmation_button">Delete</string>
   <!-- Alert dialog decline deleting this conversation button. -->
-  <string name="delete_conversation_decline_button">Cancel</string>
+  <string name="delete_conversation_decline_button">Cancelar</string>
   <!-- Hint text for the recipient chips text box when it's empty -->
-  <string name="recipient_hint">To</string>
+  <string name="recipient_hint">Para</string>
   <!-- Action menu title for multiple selection in gallery image picker -->
-  <string name="action_multiselect">Select multiple images</string>
+  <string name="action_multiselect">Selecionar várias imagens</string>
   <!-- Action menu title for confirming multiple selection in gallery image picker -->
-  <string name="action_confirm_multiselect">Confirm selection</string>
+  <string name="action_confirm_multiselect">Confirmar seleção</string>
   <!-- Text for showing there are more items in the attachments than is shown (e.g. "+2") -->
-  <string name="attachment_more_items">+<xliff:g id="count">%d</xliff:g></string>
+  <string name="attachment_more_items">+<xliff:g id="Count">%d</xliff:g></string>
   <!-- Failed to start recording audio -->
   <string name="audio_recording_start_failed">Can\'t record audio. Try again.</string>
   <!-- Failed to replay recorded audio -->
@@ -271,7 +271,7 @@
   <!-- Separator between parts of a notification in each line of an inboxStyle notification. [CHAR LIMIT=2] -->
   <string name="notification_separator">\u0020\u0020</string>
   <!-- Separator between title and content in notification ticker -->
-  <string name="notification_ticker_separator">:\u0020</string>
+  <string name="notification_ticker_separator">: \u0020</string>
   <!-- Separator between title and content in notifications -->
   <string name="notification_space_separator">\u0020\u0020</string>
   <!-- Shown in notifications when there's a picture. [CHAR LIMIT=25] -->
