@@ -45,7 +45,9 @@
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
   <string name="contact_list_send_to_text">Verzenden naar <xliff:g id="DESTINATION">%s</xliff:g></string>
   <string name="mediapicker_cameraChooserDescription">Foto\'s of video vastleggen</string>
-  <string name="mediapicker_galleryChooserDescription">Afbeeldingen kiezen op dit apparaat</string>
+  <string name="mediapicker_galleryChooserDescription">Choose images or videos from this
+        device</string>
+  <string name="mediapicker_audioListChooserDescription">Choose audios from this device</string>
   <string name="mediapicker_audioChooserDescription">Audio opnemen</string>
   <string name="mediapicker_gallery_title">Foto kiezen</string>
   <string name="mediapicker_gallery_item_selected_content_description">Het medium is geselecteerd.</string>
@@ -54,6 +56,16 @@
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">afbeelding <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
   <string name="mediapicker_gallery_image_item_description_no_date">afbeelding</string>
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Can\'t attach video.
+        Max message size exceeded.</string>
+  <string name="mediapicker_audio_list_title">Choose audio</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">The audio is selected
+        .</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">The audio is
+        unselected
+        .</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected
+    </string>
   <string name="mediapicker_audio_title">Audio opnemen</string>
   <string name="action_share">Delen</string>
   <string name="posted_just_now">"Zojuist"</string>
@@ -601,7 +613,7 @@
          send SMS messages. -->
   <string name="requires_sms_permissions_message">Deze app is niet toegestaan door de eigenaar van het apparaat.</string>
   <!-- Dialog button text that closes the application. -->
-  <string name="requires_sms_permissions_close_button">OK</string>
+  <string name="requires_sms_permissions_close_button">Oké</string>
   <!-- Toast text when creating a conversation with more participants than MMS/SMS config permits -->
   <string name="too_many_participants">Te veel deelnemers in een gesprek</string>
   <!-- Toast text when creating a conversation with an invalid participant -->
@@ -853,50 +865,50 @@
   <!-- The accessibility text read when the sim chooser pops up to read the current selected sim -->
   <string name="selected_sim_content_message"><xliff:g id="SELECTED_SIM">%s</xliff:g> geselecteerd</string>
   <!-- Swipe to delete -->
-  <string name="swipe_to_delete_conversation_pref_title">Swipe to delete</string>
-  <string name="swipe_to_delete_conversation_pref_summary">Swipe to the right to delete a conversation</string>
+  <string name="swipe_to_delete_conversation_pref_title">Swipe om te verwijderen</string>
+  <string name="swipe_to_delete_conversation_pref_summary">Swipe naar rechts om een gesprek te verwijderen</string>
   <!-- Strip unicode -->
   <string name="unicode_stripping_pref_title">Strip unicode</string>
-  <string name="pref_unicode_stripping_leave_intact">Leave characters intact</string>
-  <string name="pref_unicode_stripping_non_encodable">Strip non-encodable characters</string>
-  <string name="pref_unicode_stripping_all">Strip all unicode characters</string>
+  <string name="pref_unicode_stripping_leave_intact">Tekens intact laten</string>
+  <string name="pref_unicode_stripping_non_encodable">Niet-encodeerbare tekens strippen</string>
+  <string name="pref_unicode_stripping_all">Alle Unicode-tekens strippen</string>
   <!-- Lookup -->
-  <string name="report_as_spam_to">Report as spam to %s</string>
+  <string name="report_as_spam_to">Rapporteer als spam naar %s</string>
   <!-- Storage specific Settings -->
-  <string name="sms_storage_pref_title">Storage</string>
-  <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
-  <string name="auto_delete_pref_title">Delete old messages</string>
-  <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> messages per conversation</string>
-  <string name="sms_delete_pref_title">Text message limit</string>
-  <string name="mms_delete_pref_title">Multimedia message limit</string>
-  <string name="set">Set</string>
-  <string name="no">Cancel</string>
-  <string name="pref_title_sms_delete">Text message limit</string>
-  <string name="pref_title_mms_delete">Multimedia message limit</string>
-  <string name="pref_messages_to_save">Set number of messages to save</string>
+  <string name="sms_storage_pref_title">Opslagruimte</string>
+  <string name="pref_summary_auto_delete">Verwijder oude berichten omdat limieten zijn bereikt</string>
+  <string name="auto_delete_pref_title">Oude berichten verwijderen</string>
+  <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> berichten per gesprek</string>
+  <string name="sms_delete_pref_title">Tekstbericht limiet</string>
+  <string name="mms_delete_pref_title">Multimediabericht limiet</string>
+  <string name="set">Ingesteld</string>
+  <string name="no">Annuleren</string>
+  <string name="pref_title_sms_delete">Tekstbericht limiet</string>
+  <string name="pref_title_mms_delete">Multimediabericht limiet</string>
+  <string name="pref_messages_to_save">Stel aantal berichten in om op te slaan</string>
   <!-- Settings item for boolean option to auto -enable data for MMS messages -->
-  <string name="mms_auto_enable_data_pref_title">Auto-enable data</string>
+  <string name="mms_auto_enable_data_pref_title">Zet data automatisch aan</string>
   <!-- Settings item description for boolean auto-enable data for MMS option -->
-  <string name="mms_auto_enable_data_pref_summary">Automatically enable mobile data for MMS messages</string>
+  <string name="mms_auto_enable_data_pref_summary">Automatisch inschakelen van mobiele data voor MMS-berichten</string>
   <!-- QUICKMESSAGE SUPPORT -->
   <!-- Preferences -->
   <string name="pref_quickmessage">QuickMessage</string>
-  <string name="pref_quickmessage_title">Show QuickMessage</string>
-  <string name="pref_quickmessage_summary">Automatically open the QuickMessage pop-up for incoming SMS messages</string>
-  <string name="pref_close_all_title">Close all</string>
-  <string name="pref_close_all_summary">Close button closes all messages</string>
-  <string name="message_counter">%1$d of %2$d</string>
+  <string name="pref_quickmessage_title">Toon QuickMessage</string>
+  <string name="pref_quickmessage_summary">Automatisch openen de QuickMessage pop-up voor inkomende SMS-berichten</string>
+  <string name="pref_close_all_title">Alles sluiten</string>
+  <string name="pref_close_all_summary">Sluit-knop sluit alle berichten</string>
+  <string name="message_counter">%1$d van %2$d</string>
   <!-- QM Dialog box buttons -->
-  <string name="button_close">Close</string>
-  <string name="button_view">View</string>
+  <string name="button_close">Sluiten</string>
+  <string name="button_view">Weergeven</string>
   <string name="button_templates">Templates</string>
-  <string name="qm_button_full_conversation">Full conversation</string>
+  <string name="qm_button_full_conversation">Volledige gesprek</string>
   <!-- Hint text in message body field when keyboard is exposed -->
-  <string name="type_to_reply_text_enter_to_send">Type to reply</string>
+  <string name="type_to_reply_text_enter_to_send">Typ om te beantwoorden</string>
   <!-- QM Toast -->
-  <string name="toast_sending_message">Sending message\u2026</string>
+  <string name="toast_sending_message">Bericht verzenden\u2026</string>
   <!-- QM - Quick reply -->
-  <string name="qm_quick_reply">Quick reply</string>
-  <string name="send">Send</string>
-  <string name="compose_message_hint_text">Enter message</string>
+  <string name="qm_quick_reply">Quick Reply</string>
+  <string name="send">Verstuur</string>
+  <string name="compose_message_hint_text">Schrijf een bericht</string>
 </resources>

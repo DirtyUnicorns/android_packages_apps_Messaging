@@ -45,7 +45,9 @@
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
   <string name="contact_list_send_to_text">Skicka till <xliff:g id="DESTINATION">%s</xliff:g></string>
   <string name="mediapicker_cameraChooserDescription">Ta bilder eller spela in video</string>
-  <string name="mediapicker_galleryChooserDescription">Välj bilder från den här enheten</string>
+  <string name="mediapicker_galleryChooserDescription">Choose images or videos from this
+        device</string>
+  <string name="mediapicker_audioListChooserDescription">Choose audios from this device</string>
   <string name="mediapicker_audioChooserDescription">Spela in ljud</string>
   <string name="mediapicker_gallery_title">Välj foto</string>
   <string name="mediapicker_gallery_item_selected_content_description">Video-/bildobjektet har markerats.</string>
@@ -54,6 +56,16 @@
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">bild <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
   <string name="mediapicker_gallery_image_item_description_no_date">bild</string>
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Can\'t attach video.
+        Max message size exceeded.</string>
+  <string name="mediapicker_audio_list_title">Choose audio</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">The audio is selected
+        .</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">The audio is
+        unselected
+        .</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected
+    </string>
   <string name="mediapicker_audio_title">Spela in ljud</string>
   <string name="action_share">Dela</string>
   <string name="posted_just_now">"Nyss"</string>

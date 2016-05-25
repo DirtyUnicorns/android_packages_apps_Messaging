@@ -45,7 +45,9 @@
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
   <string name="contact_list_send_to_text">Enviar para <xliff:g id="Destination">%s</xliff:g></string>
   <string name="mediapicker_cameraChooserDescription">Capturar imagens ou vídeo</string>
-  <string name="mediapicker_galleryChooserDescription">Escolher imagens deste dispositivo</string>
+  <string name="mediapicker_galleryChooserDescription">Choose images or videos from this
+        device</string>
+  <string name="mediapicker_audioListChooserDescription">Choose audios from this device</string>
   <string name="mediapicker_audioChooserDescription">Gravar áudio</string>
   <string name="mediapicker_gallery_title">Escolher foto</string>
   <string name="mediapicker_gallery_item_selected_content_description">A mídia está selecionada.</string>
@@ -54,6 +56,16 @@
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">imagem de <xliff:g id="Date">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
   <string name="mediapicker_gallery_image_item_description_no_date">imagem</string>
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Can\'t attach video.
+        Max message size exceeded.</string>
+  <string name="mediapicker_audio_list_title">Choose audio</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">The audio is selected
+        .</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">The audio is
+        unselected
+        .</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected
+    </string>
   <string name="mediapicker_audio_title">Gravar áudio</string>
   <string name="action_share">Compartilhar</string>
   <string name="posted_just_now">"Agora mesmo"</string>
@@ -181,9 +193,9 @@
   <!-- When a database error occurs due to low memory this toast is shown. -->
   <string name="low_memory">Não foi possível concluir a operação da base de dados devido a pouca memória</string>
   <!-- notification line 1 for "there are some failed messages" -->
-  <string name="notification_send_failures_line1_singular">Message not sent</string>
+  <string name="notification_send_failures_line1_singular">Mensagem não enviada</string>
   <!-- notification line 1 for "there are some failed messages" -->
-  <string name="notification_send_failures_line1_plural">Some messages not sent in Messaging</string>
+  <string name="notification_send_failures_line1_plural">Algumas mensagens não enviadas em mensagens</string>
   <plurals name="notification_send_failures">
     <item quantity="one"><xliff:g id="messages">%d</xliff:g>mensagens em uma conversa</item>
     <item quantity="other"><xliff:g id="messages">%d</xliff:g>mensagens em <xliff:g id="conversations">%d</xliff:g> conversas</item>
@@ -200,18 +212,17 @@
   <string name="notification_emergency_send_failure_line1">Mensagem para <xliff:g id="Number">%1$s</xliff:g> não enviada</string>
   <!-- Notification content when emergency SMS fails to send -->
   <string name="notification_emergency_send_failure_line2">
-        Please make a voice call to emergency services. Your text message to
-        <xliff:g id="number">%1$s</xliff:g> could not be delivered at this time.
+        Faça uma chamada de voz para os serviços de emergência. Neste momento, não foi possível entregar a sua mensagem de texto para o número <xliff:g id="Number">%1$s</xliff:g>.
     </string>
   <!-- notification line 1 for new message notification on the lock screen -->
   <plurals name="notification_new_messages">
-    <item quantity="one">New message</item>
-    <item quantity="other"><xliff:g id="messages">%d</xliff:g> new messages</item>
+    <item quantity="one">Nova mensagem</item>
+    <item quantity="other"><xliff:g id="Messages">%d</xliff:g> novas mensagens</item>
   </plurals>
   <!-- Text for starting a new conversation button in the compose UI -->
   <string name="start_conversation">Início</string>
   <string name="camera_error_opening">Câmara não disponível</string>
-  <string name="camera_error_unknown">Camera not available</string>
+  <string name="camera_error_unknown">Câmara não disponível</string>
   <string name="camera_error_video_init_fail">Captura de vídeo não disponível</string>
   <!-- Error message when we are unable to write a picture or video file because of an error writing to storage (usually because insufficient space) -->
   <string name="camera_error_storage_fail">Não foi possível salvar a mídia</string>
@@ -221,9 +232,9 @@
   <!-- Action menu title for showing archived conversations -->
   <string name="action_menu_show_archived">Arquivadas</string>
   <!-- Action menu title for deleting selected conversations in conversation list -->
-  <string name="action_delete">Delete</string>
+  <string name="action_delete">Deletar</string>
   <!-- Action menu title for archiving selected conversations in conversation list -->
-  <string name="action_archive">Archive</string>
+  <string name="action_archive">Arquivar</string>
   <!-- Action menu title for unarchiving selected conversations in conversation list -->
   <string name="action_unarchive">Unarchive</string>
   <!-- Action menu title for turning off notification for the selected conversations in conversation list -->
@@ -243,11 +254,11 @@
   <string name="delete_message_confirmation_button">Delete</string>
   <!-- Alert dialog title to accept or decline deleting conversation(s). -->
   <plurals name="delete_conversations_confirmation_dialog_title">
-    <item quantity="one">Delete this conversation?</item>
-    <item quantity="other">Delete these conversations?</item>
+    <item quantity="one">Excluir esta conversa?</item>
+    <item quantity="other">Excluir essas conversas?</item>
   </plurals>
   <!-- Alert dialog accept deleting this conversation button. -->
-  <string name="delete_conversation_confirmation_button">Delete</string>
+  <string name="delete_conversation_confirmation_button">Deletar</string>
   <!-- Alert dialog decline deleting this conversation button. -->
   <string name="delete_conversation_decline_button">Cancelar</string>
   <!-- Hint text for the recipient chips text box when it's empty -->
@@ -259,13 +270,13 @@
   <!-- Text for showing there are more items in the attachments than is shown (e.g. "+2") -->
   <string name="attachment_more_items">+<xliff:g id="Count">%d</xliff:g></string>
   <!-- Failed to start recording audio -->
-  <string name="audio_recording_start_failed">Can\'t record audio. Try again.</string>
+  <string name="audio_recording_start_failed">Não é possível gravar áudio. Tente novamente.</string>
   <!-- Failed to replay recorded audio -->
-  <string name="audio_recording_replay_failed">Can\'t play audio. Try again.</string>
+  <string name="audio_recording_replay_failed">Não é possível reproduzir áudio. Tente novamente.</string>
   <!-- Error occurred while recording audio -->
-  <string name="audio_recording_error"> Couldn\'t save audio. Try again.</string>
+  <string name="audio_recording_error"> Não foi possível guardar áudio. Tente novamente.</string>
   <!-- Hint text on the audio recorder that instructs user how to start recording -->
-  <string name="audio_picker_hint_text">Touch &amp; hold</string>
+  <string name="audio_picker_hint_text">Toque &amp; manter</string>
   <!-- An enumeration comma for separating multiple names in notifications. [CHAR LIMIT=2] -->
   <string name="enumeration_comma">,\u0020</string>
   <!-- Separator between parts of a notification in each line of an inboxStyle notification. [CHAR LIMIT=2] -->

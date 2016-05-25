@@ -45,7 +45,9 @@
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
   <string name="contact_list_send_to_text"><xliff:g id="DESTINATION">%s</xliff:g>に送信</string>
   <string name="mediapicker_cameraChooserDescription">写真や動画を撮影</string>
-  <string name="mediapicker_galleryChooserDescription">この端末から画像を選択</string>
+  <string name="mediapicker_galleryChooserDescription">Choose images or videos from this
+        device</string>
+  <string name="mediapicker_audioListChooserDescription">Choose audios from this device</string>
   <string name="mediapicker_audioChooserDescription">音声の録音</string>
   <string name="mediapicker_gallery_title">写真を選択</string>
   <string name="mediapicker_gallery_item_selected_content_description">メディアを選択しました。</string>
@@ -54,6 +56,16 @@
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">画像<xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
   <string name="mediapicker_gallery_image_item_description_no_date">画像</string>
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Can\'t attach video.
+        Max message size exceeded.</string>
+  <string name="mediapicker_audio_list_title">Choose audio</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">The audio is selected
+        .</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">The audio is
+        unselected
+        .</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected
+    </string>
   <string name="mediapicker_audio_title">音声の録音</string>
   <string name="action_share">共有</string>
   <string name="posted_just_now">"たった今"</string>
