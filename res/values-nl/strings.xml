@@ -45,9 +45,8 @@
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
   <string name="contact_list_send_to_text">Verzenden naar <xliff:g id="DESTINATION">%s</xliff:g></string>
   <string name="mediapicker_cameraChooserDescription">Foto\'s of video vastleggen</string>
-  <string name="mediapicker_galleryChooserDescription">Choose images or videos from this
-        device</string>
-  <string name="mediapicker_audioListChooserDescription">Choose audios from this device</string>
+  <string name="mediapicker_galleryChooserDescription">Kies afbeeldingen of video\'s van dit apparaat</string>
+  <string name="mediapicker_audioListChooserDescription">Kies audios van dit apparaat</string>
   <string name="mediapicker_audioChooserDescription">Audio opnemen</string>
   <string name="mediapicker_gallery_title">Foto kiezen</string>
   <string name="mediapicker_gallery_item_selected_content_description">Het medium is geselecteerd.</string>
@@ -56,15 +55,11 @@
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">afbeelding <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
   <string name="mediapicker_gallery_image_item_description_no_date">afbeelding</string>
-  <string name="mediapicker_gallery_image_item_attachment_too_large">Can\'t attach video.
-        Max message size exceeded.</string>
-  <string name="mediapicker_audio_list_title">Choose audio</string>
-  <string name="mediapicker_audio_list_item_selected_content_description">The audio is selected
-        .</string>
-  <string name="mediapicker_audio_list_item_unselected_content_description">The audio is
-        unselected
-        .</string>
-  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Kan video niet toevoegen. Maximale grootte is overschreden.</string>
+  <string name="mediapicker_audio_list_title">Kies audio</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">Audio is geselecteerd.</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">Audio is gedeselecteerd.</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> geselecteerd
     </string>
   <string name="mediapicker_audio_title">Audio opnemen</string>
   <string name="action_share">Delen</string>

@@ -45,9 +45,8 @@
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
   <string name="contact_list_send_to_text">Skicka till <xliff:g id="DESTINATION">%s</xliff:g></string>
   <string name="mediapicker_cameraChooserDescription">Ta bilder eller spela in video</string>
-  <string name="mediapicker_galleryChooserDescription">Choose images or videos from this
-        device</string>
-  <string name="mediapicker_audioListChooserDescription">Choose audios from this device</string>
+  <string name="mediapicker_galleryChooserDescription">Välj bilder eller videor från enheten</string>
+  <string name="mediapicker_audioListChooserDescription">Välj ljud från denna enhet</string>
   <string name="mediapicker_audioChooserDescription">Spela in ljud</string>
   <string name="mediapicker_gallery_title">Välj foto</string>
   <string name="mediapicker_gallery_item_selected_content_description">Video-/bildobjektet har markerats.</string>
@@ -56,15 +55,11 @@
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">bild <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
   <string name="mediapicker_gallery_image_item_description_no_date">bild</string>
-  <string name="mediapicker_gallery_image_item_attachment_too_large">Can\'t attach video.
-        Max message size exceeded.</string>
-  <string name="mediapicker_audio_list_title">Choose audio</string>
-  <string name="mediapicker_audio_list_item_selected_content_description">The audio is selected
-        .</string>
-  <string name="mediapicker_audio_list_item_unselected_content_description">The audio is
-        unselected
-        .</string>
-  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Kan inte bifoga video.         Max meddelandestorlek överskrids.</string>
+  <string name="mediapicker_audio_list_title">Välj ljud</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">Ljudet är valt.</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">Ljudet är omarkerade.</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> har valts
     </string>
   <string name="mediapicker_audio_title">Spela in ljud</string>
   <string name="action_share">Dela</string>
@@ -426,7 +421,7 @@
   <!-- Preference title: SMS enabled (Messaging is the default SMS app) -->
   <string name="sms_enabled_pref_title">Standardapp för sms</string>
   <!-- Preference summary: Current default SMS app -->
-  <string name="default_sms_app"><xliff:g id="app_name">%s</xliff:g></string>
+  <string name="default_sms_app"><xliff:g id="app_name">%s </xliff:g></string>
   <!-- Preference title: MMS phone number -->
   <string name="mms_phone_number_pref_title">Ditt telefonnummer</string>
   <!-- Display text for phone number preference when the number is unknown -->
@@ -613,7 +608,7 @@
          send SMS messages. -->
   <string name="requires_sms_permissions_message">Appen tillåts inte av enhetsägaren.</string>
   <!-- Dialog button text that closes the application. -->
-  <string name="requires_sms_permissions_close_button">OK</string>
+  <string name="requires_sms_permissions_close_button">Ok</string>
   <!-- Toast text when creating a conversation with more participants than MMS/SMS config permits -->
   <string name="too_many_participants">För många deltagare i en konversation</string>
   <!-- Toast text when creating a conversation with an invalid participant -->
@@ -865,48 +860,48 @@
   <!-- The accessibility text read when the sim chooser pops up to read the current selected sim -->
   <string name="selected_sim_content_message"><xliff:g id="SELECTED_SIM">%s</xliff:g> har valts</string>
   <!-- Swipe to delete -->
-  <string name="swipe_to_delete_conversation_pref_title">Swipe to delete</string>
-  <string name="swipe_to_delete_conversation_pref_summary">Swipe to the right to delete a conversation</string>
+  <string name="swipe_to_delete_conversation_pref_title">Svep för att ta bort</string>
+  <string name="swipe_to_delete_conversation_pref_summary">Svep till höger för att ta bort en konversation</string>
   <!-- Strip unicode -->
-  <string name="unicode_stripping_pref_title">Strip unicode</string>
-  <string name="pref_unicode_stripping_leave_intact">Leave characters intact</string>
-  <string name="pref_unicode_stripping_non_encodable">Strip non-encodable characters</string>
-  <string name="pref_unicode_stripping_all">Strip all unicode characters</string>
+  <string name="unicode_stripping_pref_title">Konvertera unicode</string>
+  <string name="pref_unicode_stripping_leave_intact">Lämna tecken intakta</string>
+  <string name="pref_unicode_stripping_non_encodable">Konvertera ej kodbara tecken</string>
+  <string name="pref_unicode_stripping_all">Konvertera alla unicodetecken</string>
   <!-- Lookup -->
-  <string name="report_as_spam_to">Report as spam to %s</string>
+  <string name="report_as_spam_to">Rapportera som spam till %s</string>
   <!-- Storage specific Settings -->
-  <string name="sms_storage_pref_title">Storage</string>
-  <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
-  <string name="auto_delete_pref_title">Delete old messages</string>
-  <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> messages per conversation</string>
-  <string name="sms_delete_pref_title">Text message limit</string>
-  <string name="mms_delete_pref_title">Multimedia message limit</string>
-  <string name="set">Set</string>
-  <string name="no">Cancel</string>
-  <string name="pref_title_sms_delete">Text message limit</string>
-  <string name="pref_title_mms_delete">Multimedia message limit</string>
-  <string name="pref_messages_to_save">Set number of messages to save</string>
+  <string name="sms_storage_pref_title">Lagring</string>
+  <string name="pref_summary_auto_delete">Ta bort gamla meddelanden när gränsen är nådd</string>
+  <string name="auto_delete_pref_title">Radera gamla meddelanden</string>
+  <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s </xliff:g> meddelanden per konversation</string>
+  <string name="sms_delete_pref_title">Textmeddelandegräns</string>
+  <string name="mms_delete_pref_title">Multimediameddelandegräns</string>
+  <string name="set">Ställ in</string>
+  <string name="no">Avbryt</string>
+  <string name="pref_title_sms_delete">Textmeddelandegräns</string>
+  <string name="pref_title_mms_delete">Multimediameddelandegräns</string>
+  <string name="pref_messages_to_save">Ange antal meddelanden att spara</string>
   <!-- Settings item for boolean option to auto -enable data for MMS messages -->
-  <string name="mms_auto_enable_data_pref_title">Auto-enable data</string>
+  <string name="mms_auto_enable_data_pref_title">Autoaktivera data</string>
   <!-- Settings item description for boolean auto-enable data for MMS option -->
-  <string name="mms_auto_enable_data_pref_summary">Automatically enable mobile data for MMS messages</string>
+  <string name="mms_auto_enable_data_pref_summary">Aktivera automatiskt mobildata för MMS-meddelanden</string>
   <!-- QUICKMESSAGE SUPPORT -->
   <!-- Preferences -->
-  <string name="pref_quickmessage">QuickMessage</string>
-  <string name="pref_quickmessage_title">Show QuickMessage</string>
-  <string name="pref_quickmessage_summary">Automatically open the QuickMessage pop-up for incoming SMS messages</string>
-  <string name="pref_close_all_title">Close all</string>
-  <string name="pref_close_all_summary">Close button closes all messages</string>
-  <string name="message_counter">%1$d of %2$d</string>
+  <string name="pref_quickmessage">Snabbmeddelande</string>
+  <string name="pref_quickmessage_title">Visa snabbmeddelande</string>
+  <string name="pref_quickmessage_summary">Öppna automatiskt snabbmeddelandepopup för inkommande SMS-meddelanden</string>
+  <string name="pref_close_all_title">Stäng alla</string>
+  <string name="pref_close_all_summary">Stäng knappen stänger alla meddelanden</string>
+  <string name="message_counter">%1$d av %2$d</string>
   <!-- QM Dialog box buttons -->
-  <string name="button_close">Close</string>
-  <string name="button_view">View</string>
-  <string name="button_templates">Templates</string>
-  <string name="qm_button_full_conversation">Full conversation</string>
+  <string name="button_close">Stäng</string>
+  <string name="button_view">Visa</string>
+  <string name="button_templates">Mallar</string>
+  <string name="qm_button_full_conversation">Hel konversation</string>
   <!-- Hint text in message body field when keyboard is exposed -->
-  <string name="type_to_reply_text_enter_to_send">Type to reply</string>
+  <string name="type_to_reply_text_enter_to_send">Skriv för att svara</string>
   <!-- QM Toast -->
-  <string name="toast_sending_message">Sending message\u2026</string>
+  <string name="toast_sending_message">Skickar meddelande\u2026</string>
   <!-- QM - Quick reply -->
   <string name="qm_quick_reply">Quick reply</string>
   <string name="send">Send</string>

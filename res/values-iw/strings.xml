@@ -73,16 +73,22 @@
   <!-- Abbreviated message to express that something occurred some number of minutes in the past (e.g., 5 minutes ago). -->
   <plurals name="num_minutes_ago">
     <item quantity="one">דקה <xliff:g id="COUNT_0">%d</xliff:g></item>
+    <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> דקות</item>
+    <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> דקות</item>
     <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> דקות</item>
   </plurals>
   <!-- Abbreviated message to express that something occurred some number of hours in the past (e.g., 5 hours ago). -->
   <plurals name="num_hours_ago">
     <item quantity="one">שעה <xliff:g id="COUNT_0">%d</xliff:g></item>
+    <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> שעות</item>
+    <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> שעות</item>
     <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> שעות</item>
   </plurals>
   <!-- Abbreviated message to express that something occurred some number of days in the past (e.g., 5 days ago). -->
   <plurals name="num_days_ago">
     <item quantity="one">יום <xliff:g id="COUNT_0">%d</xliff:g></item>
+    <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> ימים</item>
+    <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> ימים</item>
     <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ימים</item>
   </plurals>
   <!--
@@ -92,18 +98,24 @@
   <plurals name="week_count">
     <!-- Singular case -->
     <item quantity="one">שבוע</item>
+    <item quantity="two"> שבועות</item>
+    <item quantity="many"> שבועות</item>
     <!-- Plural case -->
     <item quantity="other"> שבועות</item>
   </plurals>
   <plurals name="month_count">
     <!-- Singular case -->
     <item quantity="one">חודש</item>
+    <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> חודשים</item>
+    <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> חודשים</item>
     <!-- Plural case -->
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> חודשים</item>
   </plurals>
   <plurals name="year_count">
     <!-- Singular case -->
     <item quantity="one">שנה</item>
+    <item quantity="two"> שנים</item>
+    <item quantity="many"> שנים</item>
     <!-- Plural case -->
     <item quantity="other"> שנים</item>
   </plurals>
@@ -198,6 +210,8 @@
   <string name="notification_send_failures_line1_plural">\'העברת הודעות\' לא שלח חלק מההודעות</string>
   <plurals name="notification_send_failures">
     <item quantity="one"><xliff:g id="MESSAGES_0">%d</xliff:g> הודעות בשיחה אחת</item>
+    <item quantity="two"><xliff:g id="MESSAGES_1">%d</xliff:g> הודעות ב-<xliff:g id="CONVERSATIONS">%d</xliff:g> שיחות</item>
+    <item quantity="many"><xliff:g id="MESSAGES_1">%d</xliff:g> הודעות ב-<xliff:g id="CONVERSATIONS">%d</xliff:g> שיחות</item>
     <item quantity="other"><xliff:g id="MESSAGES_1">%d</xliff:g> הודעות ב-<xliff:g id="CONVERSATIONS">%d</xliff:g> שיחות</item>
   </plurals>
   <!-- notification line 1 for download failed -->
@@ -206,6 +220,8 @@
   <string name="notification_download_failures_line1_plural">\'העברת הודעות\' לא הוריד חלק מההודעות</string>
   <plurals name="notification_download_failures">
     <item quantity="one"><xliff:g id="MESSAGES_0">%d</xliff:g> הודעות בשיחה אחת</item>
+    <item quantity="two"><xliff:g id="MESSAGES_1">%d</xliff:g> הודעות ב-<xliff:g id="CONVERSATIONS">%d</xliff:g> שיחות</item>
+    <item quantity="many"><xliff:g id="MESSAGES_1">%d</xliff:g> הודעות ב-<xliff:g id="CONVERSATIONS">%d</xliff:g> שיחות</item>
     <item quantity="other"><xliff:g id="MESSAGES_1">%d</xliff:g> הודעות ב-<xliff:g id="CONVERSATIONS">%d</xliff:g> שיחות</item>
   </plurals>
   <!-- Notification title when emergency SMS (e.g. to 911) fails to send -->
@@ -215,6 +231,8 @@
   <!-- notification line 1 for new message notification on the lock screen -->
   <plurals name="notification_new_messages">
     <item quantity="one">הודעה חדשה</item>
+    <item quantity="two"><xliff:g id="MESSAGES">%d</xliff:g> הודעות חדשות</item>
+    <item quantity="many"><xliff:g id="MESSAGES">%d</xliff:g> הודעות חדשות</item>
     <item quantity="other"><xliff:g id="MESSAGES">%d</xliff:g> הודעות חדשות</item>
   </plurals>
   <!-- Text for starting a new conversation button in the compose UI -->
@@ -253,6 +271,8 @@
   <!-- Alert dialog title to accept or decline deleting conversation(s). -->
   <plurals name="delete_conversations_confirmation_dialog_title">
     <item quantity="one">האם למחוק את השיחה הזו?</item>
+    <item quantity="two">האם למחוק את השיחות האלו?</item>
+    <item quantity="many">האם למחוק את השיחות האלו?</item>
     <item quantity="other">האם למחוק את השיחות האלו?</item>
   </plurals>
   <!-- Alert dialog accept deleting this conversation button. -->
@@ -302,6 +322,8 @@
   <!-- The bottom line on a wearable notification that shows how many participants in the conversation -->
   <plurals name="wearable_participant_count">
     <item quantity="one">משתתף <xliff:g id="COUNT_0">%d</xliff:g></item>
+    <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> משתתפים</item>
+    <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> משתתפים</item>
     <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> משתתפים</item>
   </plurals>
   <!-- Shown in the Android Wear conversation log as the sender for outgoing messages,
@@ -328,6 +350,8 @@
   <!-- Accessibility : Content descriptinon for ImageButtons and ImageViews -->
   <plurals name="attachment_preview_close_content_description">
     <item quantity="one">מחק את הקובץ המצורף</item>
+    <item quantity="two">מחק את הקבצים המצורפים</item>
+    <item quantity="many">מחק את הקבצים המצורפים</item>
     <item quantity="other">מחק את הקבצים המצורפים</item>
   </plurals>
   <string name="audio_attachment_content_description">קובץ אודיו מצורף</string>
@@ -366,26 +390,38 @@
   <string name="photo_view_activity_title">תמונות ב\'העברת הודעות\'</string>
   <plurals name="photos_saved_to_album">
     <item quantity="one">תמונה <xliff:g id="QUANTITY_0">%d</xliff:g> נשמרה באלבום "<xliff:g id="ALBUMNAME_1">%s</xliff:g>\"</item>
+    <item quantity="two"><xliff:g id="QUANTITY_2">%d</xliff:g> תמונות נשמרו באלבום "<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
+    <item quantity="many"><xliff:g id="QUANTITY_2">%d</xliff:g> תמונות נשמרו באלבום "<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
     <item quantity="other"><xliff:g id="QUANTITY_2">%d</xliff:g> תמונות נשמרו באלבום "<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
   </plurals>
   <plurals name="videos_saved_to_album">
     <item quantity="one">סרטון <xliff:g id="QUANTITY_0">%d</xliff:g> נשמר באלבום "<xliff:g id="ALBUMNAME_1">%s</xliff:g>\"</item>
+    <item quantity="two"><xliff:g id="QUANTITY_2">%d</xliff:g> סרטונים נשמרו באלבום "<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
+    <item quantity="many"><xliff:g id="QUANTITY_2">%d</xliff:g> סרטונים נשמרו באלבום "<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
     <item quantity="other"><xliff:g id="QUANTITY_2">%d</xliff:g> סרטונים נשמרו באלבום "<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
   </plurals>
   <plurals name="attachments_saved_to_album">
     <item quantity="one">קובץ מצורף <xliff:g id="QUANTITY_0">%d</xliff:g> נשמר באלבום "<xliff:g id="ALBUMNAME_1">%s</xliff:g>\"</item>
+    <item quantity="two"><xliff:g id="QUANTITY_2">%d</xliff:g> קבצים מצורפים נשמרו באלבום "<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
+    <item quantity="many"><xliff:g id="QUANTITY_2">%d</xliff:g> קבצים מצורפים נשמרו באלבום "<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
     <item quantity="other"><xliff:g id="QUANTITY_2">%d</xliff:g> קבצים מצורפים נשמרו באלבום "<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
   </plurals>
   <plurals name="attachments_saved_to_downloads">
     <item quantity="one">קובץ מצורף <xliff:g id="QUANTITY_0">%d</xliff:g> נשמר ב\"הורדות\"</item>
+    <item quantity="two"><xliff:g id="QUANTITY_1">%d</xliff:g> קבצים מצורפים נשמרו ב\"הורדות\"</item>
+    <item quantity="many"><xliff:g id="QUANTITY_1">%d</xliff:g> קבצים מצורפים נשמרו ב\"הורדות\"</item>
     <item quantity="other"><xliff:g id="QUANTITY_1">%d</xliff:g> קבצים מצורפים נשמרו ב\"הורדות\"</item>
   </plurals>
   <plurals name="attachments_saved">
     <item quantity="one">קובץ מצורף <xliff:g id="QUANTITY_0">%d</xliff:g> נשמר</item>
+    <item quantity="two"><xliff:g id="QUANTITY_1">%d</xliff:g> קבצים מצורפים נשמרו</item>
+    <item quantity="many"><xliff:g id="QUANTITY_1">%d</xliff:g> קבצים מצורפים נשמרו</item>
     <item quantity="other"><xliff:g id="QUANTITY_1">%d</xliff:g> קבצים מצורפים נשמרו</item>
   </plurals>
   <plurals name="attachment_save_error">
     <item quantity="one">לא ניתן היה לשמור קובץ מצורף <xliff:g id="QUANTITY_0">%d</xliff:g></item>
+    <item quantity="two">לא ניתן היה לשמור <xliff:g id="QUANTITY_1">%d</xliff:g> קבצים מצורפים</item>
+    <item quantity="many">לא ניתן היה לשמור <xliff:g id="QUANTITY_1">%d</xliff:g> קבצים מצורפים</item>
     <item quantity="other">לא ניתן היה לשמור <xliff:g id="QUANTITY_1">%d</xliff:g> קבצים מצורפים</item>
   </plurals>
   <!-- Description shown in the download manager for an attachment that the user manually saved -->
@@ -516,31 +552,43 @@
   <!-- The hint text shown in the message compose input box when photo(s) is attached -->
   <plurals name="compose_message_view_hint_text_photo">
     <item quantity="one">שלח את התמונה</item>
+    <item quantity="two">שלח את התמונות</item>
+    <item quantity="many">שלח את התמונות</item>
     <item quantity="other">שלח את התמונות</item>
   </plurals>
   <!-- The hint text shown in the message compose input box when audio recording(s) is attached -->
   <plurals name="compose_message_view_hint_text_audio">
     <item quantity="one">שלח את הקלטת האודיו</item>
+    <item quantity="two">שלח את הקלטות האודיו</item>
+    <item quantity="many">שלח את הקלטות האודיו</item>
     <item quantity="other">שלח את הקלטות האודיו</item>
   </plurals>
   <!-- The hint text shown in the message compose input box when video(s) is attached -->
   <plurals name="compose_message_view_hint_text_video">
     <item quantity="one">שלח את הסרטון</item>
+    <item quantity="two">שלח את הסרטונים</item>
+    <item quantity="many">שלח את הסרטונים</item>
     <item quantity="other">שלח את הסרטונים</item>
   </plurals>
   <!-- The hint text shown in the message compose input box when vcard(s) is attached -->
   <plurals name="compose_message_view_hint_text_vcard">
     <item quantity="one">שלח את כרטיס איש הקשר</item>
+    <item quantity="two">שלח את כרטיסי אנשי הקשר</item>
+    <item quantity="many">שלח את כרטיסי אנשי הקשר</item>
     <item quantity="other">שלח את כרטיסי אנשי הקשר</item>
   </plurals>
   <!-- The hint text shown in the message compose input box when a single unknown attachment, or multiple different attachments are attached -->
   <plurals name="compose_message_view_hint_text_attachments">
     <item quantity="one">שלח את הקובץ המצורף</item>
+    <item quantity="two">שלח את הקבצים המצורפים</item>
+    <item quantity="many">שלח את הקבצים המצורפים</item>
     <item quantity="other">שלח את הקבצים המצורפים</item>
   </plurals>
   <!-- Announcement after the user adds or removes an attachment -->
   <plurals name="attachment_changed_accessibility_announcement">
     <item quantity="one">יש קובץ מצורף אחד המוכן לשליחה</item>
+    <item quantity="two">יש <xliff:g id="ATTACHMENT_COUNT">%d</xliff:g> קבצים מצורפים המוכנים לשליחה</item>
+    <item quantity="many">יש <xliff:g id="ATTACHMENT_COUNT">%d</xliff:g> קבצים מצורפים המוכנים לשליחה</item>
     <item quantity="other">יש <xliff:g id="ATTACHMENT_COUNT">%d</xliff:g> קבצים מצורפים המוכנים לשליחה</item>
   </plurals>
   <!-- Action menu title in the HelpAndFeedbackFragment to let users send feedback -->
@@ -579,6 +627,8 @@
   <plurals name="vcard_multiple_display_name">
     <!-- quantity="one" is not needed by the app, but it keeps the translation pipeline happy. -->
     <item quantity="one">איש קשר <xliff:g id="COUNT_0">%d</xliff:g></item>
+    <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> אנשי קשר</item>
+    <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> אנשי קשר</item>
     <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> אנשי קשר</item>
   </plurals>
   <!-- Title for the activity that shows details of VCards -->
@@ -619,6 +669,8 @@
   <!-- Toast text when creating a conversation with an invalid participant -->
   <plurals name="add_invalid_contact_error">
     <item quantity="one">איש קשר לא חוקי</item>
+    <item quantity="two">אנשי קשר לא חוקיים</item>
+    <item quantity="many">אנשי קשר לא חוקיים</item>
     <item quantity="other">אנשי קשר לא חוקיים</item>
   </plurals>
   <!-- Error toast message shown when a camera image failed to attach to the message -->

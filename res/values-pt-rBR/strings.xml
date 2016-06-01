@@ -45,9 +45,8 @@
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
   <string name="contact_list_send_to_text">Enviar para <xliff:g id="Destination">%s</xliff:g></string>
   <string name="mediapicker_cameraChooserDescription">Capturar imagens ou vídeo</string>
-  <string name="mediapicker_galleryChooserDescription">Choose images or videos from this
-        device</string>
-  <string name="mediapicker_audioListChooserDescription">Choose audios from this device</string>
+  <string name="mediapicker_galleryChooserDescription">Escolher imagens ou vídeos a partir deste dispositivo</string>
+  <string name="mediapicker_audioListChooserDescription">Escolher áudios deste dispositivo</string>
   <string name="mediapicker_audioChooserDescription">Gravar áudio</string>
   <string name="mediapicker_gallery_title">Escolher foto</string>
   <string name="mediapicker_gallery_item_selected_content_description">A mídia está selecionada.</string>
@@ -56,15 +55,11 @@
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">imagem de <xliff:g id="Date">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
   <string name="mediapicker_gallery_image_item_description_no_date">imagem</string>
-  <string name="mediapicker_gallery_image_item_attachment_too_large">Can\'t attach video.
-        Max message size exceeded.</string>
-  <string name="mediapicker_audio_list_title">Choose audio</string>
-  <string name="mediapicker_audio_list_item_selected_content_description">The audio is selected
-        .</string>
-  <string name="mediapicker_audio_list_item_unselected_content_description">The audio is
-        unselected
-        .</string>
-  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Não é possível anexar o vídeo.         Tamanho máximo de mensagem excedido.</string>
+  <string name="mediapicker_audio_list_title">Selecionar áudio</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">O áudio está selecionado.</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">O áudio está desmarcado.</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="Count">%d</xliff:g> selecionado
     </string>
   <string name="mediapicker_audio_title">Gravar áudio</string>
   <string name="action_share">Compartilhar</string>
@@ -236,11 +231,11 @@
   <!-- Action menu title for archiving selected conversations in conversation list -->
   <string name="action_archive">Arquivar</string>
   <!-- Action menu title for unarchiving selected conversations in conversation list -->
-  <string name="action_unarchive">Unarchive</string>
+  <string name="action_unarchive">Desarquivar</string>
   <!-- Action menu title for turning off notification for the selected conversations in conversation list -->
-  <string name="action_notification_off">Turn off notifications</string>
+  <string name="action_notification_off">Desativar notificações</string>
   <!-- Action menu title for turning on notification for the selected conversations in conversation list -->
-  <string name="action_notification_on">Turn on notifications</string>
+  <string name="action_notification_on">Ativar notificações</string>
   <!-- Action menu title for adding the contacts for the selected conversations in conversation list -->
   <string name="action_add_contact">Adicionar contacto</string>
   <!-- Action menu title for downloading failed message selected in conversation -->
@@ -250,8 +245,8 @@
   <!-- Action menu title for deleting failed message selected in conversation -->
   <string name="action_delete_message">Excluir</string>
   <string name="delete_message_confirmation_dialog_title">Apagar esta mensagem?</string>
-  <string name="delete_message_confirmation_dialog_text">This action cannot be undone.</string>
-  <string name="delete_message_confirmation_button">Delete</string>
+  <string name="delete_message_confirmation_dialog_text">Esta ação não pode ser desfeita.</string>
+  <string name="delete_message_confirmation_button">Deletar</string>
   <!-- Alert dialog title to accept or decline deleting conversation(s). -->
   <plurals name="delete_conversations_confirmation_dialog_title">
     <item quantity="one">Excluir esta conversa?</item>
