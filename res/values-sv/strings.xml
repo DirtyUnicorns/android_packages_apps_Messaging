@@ -903,7 +903,7 @@
   <!-- QM Toast -->
   <string name="toast_sending_message">Skickar meddelande\u2026</string>
   <!-- QM - Quick reply -->
-  <string name="qm_quick_reply">Quick reply</string>
-  <string name="send">Send</string>
-  <string name="compose_message_hint_text">Enter message</string>
+  <string name="qm_quick_reply">Snabbsvar</string>
+  <string name="send">Skicka</string>
+  <string name="compose_message_hint_text">Skriv meddelande</string>
 </resources>
