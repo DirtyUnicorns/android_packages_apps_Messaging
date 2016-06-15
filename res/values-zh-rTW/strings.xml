@@ -45,9 +45,8 @@
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
   <string name="contact_list_send_to_text">傳送至 <xliff:g id="DESTINATION">%s</xliff:g></string>
   <string name="mediapicker_cameraChooserDescription">拍照或錄影</string>
-  <string name="mediapicker_galleryChooserDescription">Choose images or videos from this
-        device</string>
-  <string name="mediapicker_audioListChooserDescription">Choose audios from this device</string>
+  <string name="mediapicker_galleryChooserDescription">從這個        裝置選擇影像或影片</string>
+  <string name="mediapicker_audioListChooserDescription">從此裝置中選擇音訊檔案</string>
   <string name="mediapicker_audioChooserDescription">錄音</string>
   <string name="mediapicker_gallery_title">選擇相片</string>
   <string name="mediapicker_gallery_item_selected_content_description">已選取媒體。</string>
@@ -56,16 +55,11 @@
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">圖片 (<xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g>)</string>
   <string name="mediapicker_gallery_image_item_description_no_date">圖片</string>
-  <string name="mediapicker_gallery_image_item_attachment_too_large">Can\'t attach video.
-        Max message size exceeded.</string>
-  <string name="mediapicker_audio_list_title">Choose audio</string>
-  <string name="mediapicker_audio_list_item_selected_content_description">The audio is selected
-        .</string>
-  <string name="mediapicker_audio_list_item_unselected_content_description">The audio is
-        unselected
-        .</string>
-  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected
-    </string>
+  <string name="mediapicker_gallery_image_item_attachment_too_large">無法附屬影片         已達到最大訊息大小</string>
+  <string name="mediapicker_audio_list_title">選擇音訊</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">音訊已選擇        。</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">此音訊為        尚未選擇        。</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g>已選擇    </string>
   <string name="mediapicker_audio_title">錄音</string>
   <string name="action_share">分享</string>
   <string name="posted_just_now">"剛剛"</string>
@@ -408,7 +402,7 @@
   <!-- Preference title: SMS enabled (Messaging is the default SMS app) -->
   <string name="sms_enabled_pref_title">預設簡訊應用程式</string>
   <!-- Preference summary: Current default SMS app -->
-  <string name="default_sms_app"><xliff:g id="app_name">%s</xliff:g></string>
+  <string name="default_sms_app"><xliff:g id="app_name">%s </xliff:g></string>
   <!-- Preference title: MMS phone number -->
   <string name="mms_phone_number_pref_title">您的電話號碼</string>
   <!-- Display text for phone number preference when the number is unknown -->
@@ -661,7 +655,7 @@
   <!-- Error toast shown when a message could not be downloaded because of unspecified error. -->
   <string name="download_message_failure">無法下載訊息</string>
   <!-- Accessibility : content description for numbers -->
-  <string name="content_description_for_number_zero">Zero</string>
+  <string name="content_description_for_number_zero">零</string>
   <string name="content_description_for_number_one">1</string>
   <string name="content_description_for_number_two">2</string>
   <string name="content_description_for_number_three">3</string>
@@ -839,50 +833,50 @@
   <!-- The accessibility text read when the sim chooser pops up to read the current selected sim -->
   <string name="selected_sim_content_message">已選取「<xliff:g id="SELECTED_SIM">%s</xliff:g>」</string>
   <!-- Swipe to delete -->
-  <string name="swipe_to_delete_conversation_pref_title">Swipe to delete</string>
-  <string name="swipe_to_delete_conversation_pref_summary">Swipe to the right to delete a conversation</string>
+  <string name="swipe_to_delete_conversation_pref_title">滑動來刪除</string>
+  <string name="swipe_to_delete_conversation_pref_summary">向右滑動來刪除一個對話</string>
   <!-- Strip unicode -->
-  <string name="unicode_stripping_pref_title">Strip unicode</string>
-  <string name="pref_unicode_stripping_leave_intact">Leave characters intact</string>
-  <string name="pref_unicode_stripping_non_encodable">Strip non-encodable characters</string>
-  <string name="pref_unicode_stripping_all">Strip all unicode characters</string>
+  <string name="unicode_stripping_pref_title">去除 Unicode</string>
+  <string name="pref_unicode_stripping_leave_intact">保留完整字元</string>
+  <string name="pref_unicode_stripping_non_encodable">去除不可編碼的字元</string>
+  <string name="pref_unicode_stripping_all">去除所有 Unicode 字元</string>
   <!-- Lookup -->
-  <string name="report_as_spam_to">Report as spam to %s</string>
+  <string name="report_as_spam_to">報告為垃圾郵件到 %s</string>
   <!-- Storage specific Settings -->
-  <string name="sms_storage_pref_title">Storage</string>
-  <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
-  <string name="auto_delete_pref_title">Delete old messages</string>
-  <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> messages per conversation</string>
-  <string name="sms_delete_pref_title">Text message limit</string>
-  <string name="mms_delete_pref_title">Multimedia message limit</string>
-  <string name="set">Set</string>
-  <string name="no">Cancel</string>
-  <string name="pref_title_sms_delete">Text message limit</string>
-  <string name="pref_title_mms_delete">Multimedia message limit</string>
-  <string name="pref_messages_to_save">Set number of messages to save</string>
+  <string name="sms_storage_pref_title">儲存</string>
+  <string name="pref_summary_auto_delete">達到數量上限時刪除舊訊息</string>
+  <string name="auto_delete_pref_title">刪除舊訊息</string>
+  <string name="pref_summary_delete_limit">每個會話群組包含 <xliff:g id="COUNT">%1$s</xliff:g> 則訊息</string>
+  <string name="sms_delete_pref_title">簡訊限制</string>
+  <string name="mms_delete_pref_title">多媒體訊息限制</string>
+  <string name="set">設定</string>
+  <string name="no">取消</string>
+  <string name="pref_title_sms_delete">簡訊限制</string>
+  <string name="pref_title_mms_delete">多媒體訊息限制</string>
+  <string name="pref_messages_to_save">設定儲存的訊息數量</string>
   <!-- Settings item for boolean option to auto -enable data for MMS messages -->
-  <string name="mms_auto_enable_data_pref_title">Auto-enable data</string>
+  <string name="mms_auto_enable_data_pref_title">自動啟用資料</string>
   <!-- Settings item description for boolean auto-enable data for MMS option -->
-  <string name="mms_auto_enable_data_pref_summary">Automatically enable mobile data for MMS messages</string>
+  <string name="mms_auto_enable_data_pref_summary">自動啟用 MMS 的行動網路</string>
   <!-- QUICKMESSAGE SUPPORT -->
   <!-- Preferences -->
-  <string name="pref_quickmessage">QuickMessage</string>
-  <string name="pref_quickmessage_title">Show QuickMessage</string>
-  <string name="pref_quickmessage_summary">Automatically open the QuickMessage pop-up for incoming SMS messages</string>
-  <string name="pref_close_all_title">Close all</string>
-  <string name="pref_close_all_summary">Close button closes all messages</string>
-  <string name="message_counter">%1$d of %2$d</string>
+  <string name="pref_quickmessage">快速回復訊息</string>
+  <string name="pref_quickmessage_title">顯示快速回復訊息</string>
+  <string name="pref_quickmessage_summary">自動為新進的簡訊 開啟快速回復訊息彈出提醒</string>
+  <string name="pref_close_all_title">關閉所有</string>
+  <string name="pref_close_all_summary">關閉按鈕會關閉所有訊息</string>
+  <string name="message_counter">%2$d 中的 %1$d</string>
   <!-- QM Dialog box buttons -->
-  <string name="button_close">Close</string>
-  <string name="button_view">View</string>
-  <string name="button_templates">Templates</string>
-  <string name="qm_button_full_conversation">Full conversation</string>
+  <string name="button_close">關閉</string>
+  <string name="button_view">查看</string>
+  <string name="button_templates">樣板</string>
+  <string name="qm_button_full_conversation">完整對話</string>
   <!-- Hint text in message body field when keyboard is exposed -->
-  <string name="type_to_reply_text_enter_to_send">Type to reply</string>
+  <string name="type_to_reply_text_enter_to_send">輸入以回覆</string>
   <!-- QM Toast -->
-  <string name="toast_sending_message">Sending message\u2026</string>
+  <string name="toast_sending_message">正在傳送訊息\u2026</string>
   <!-- QM - Quick reply -->
-  <string name="qm_quick_reply">Quick reply</string>
-  <string name="send">Send</string>
-  <string name="compose_message_hint_text">Enter message</string>
+  <string name="qm_quick_reply">快速回覆</string>
+  <string name="send">傳送</string>
+  <string name="compose_message_hint_text">輸入訊息</string>
 </resources>

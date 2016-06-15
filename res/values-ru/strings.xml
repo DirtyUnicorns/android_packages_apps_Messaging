@@ -59,8 +59,7 @@
   <string name="mediapicker_audio_list_title">Выбор аудио</string>
   <string name="mediapicker_audio_list_item_selected_content_description">Аудио выбрано.</string>
   <string name="mediapicker_audio_list_item_unselected_content_description">Аудио выбрано.</string>
-  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected
-    </string>
+  <string name="mediapicker_audio_list_title_selection">Выбрано: <xliff:g id="Count">%d</xliff:g>    </string>
   <string name="mediapicker_audio_title">Запись аудио</string>
   <string name="action_share">Поделиться</string>
   <string name="posted_just_now">"Только что"</string>
