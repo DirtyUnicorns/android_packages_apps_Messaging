@@ -46,7 +46,6 @@
   <string name="contact_list_send_to_text">Отправить на номер <xliff:g id="DESTINATION">%s</xliff:g></string>
   <string name="mediapicker_cameraChooserDescription">Снять фото или видео</string>
   <string name="mediapicker_galleryChooserDescription">Выберите изображения или видео с этого устройства</string>
-  <string name="mediapicker_audioListChooserDescription">Выбрать аудио из этого устройства</string>
   <string name="mediapicker_audioChooserDescription">Записать аудио</string>
   <string name="mediapicker_gallery_title">Выбрать фотографию</string>
   <string name="mediapicker_gallery_item_selected_content_description">Медиафайл выбран</string>
@@ -55,11 +54,6 @@
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">изображение <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
   <string name="mediapicker_gallery_image_item_description_no_date">изображение</string>
-  <string name="mediapicker_gallery_image_item_attachment_too_large">Не удается прикрепить видео. Превышен максимальный размер сообщения.</string>
-  <string name="mediapicker_audio_list_title">Выбор аудио</string>
-  <string name="mediapicker_audio_list_item_selected_content_description">Аудио выбрано.</string>
-  <string name="mediapicker_audio_list_item_unselected_content_description">Аудио выбрано.</string>
-  <string name="mediapicker_audio_list_title_selection">Выбрано: <xliff:g id="Count">%d</xliff:g>    </string>
   <string name="mediapicker_audio_title">Запись аудио</string>
   <string name="action_share">Поделиться</string>
   <string name="posted_just_now">"Только что"</string>
@@ -893,12 +887,12 @@
   <string name="pref_unicode_stripping_non_encodable">Заменить некодируемые символы</string>
   <string name="pref_unicode_stripping_all">Заменять все символы юникода</string>
   <!-- Lookup -->
-  <string name="report_as_spam_to">Сообщить о спаме</string>
+  <string name="report_as_spam_to">Отметить как спам %s</string>
   <!-- Storage specific Settings -->
   <string name="sms_storage_pref_title">Память</string>
   <string name="pref_summary_auto_delete">Удалять старые сообщения по достижении макс. количества</string>
   <string name="auto_delete_pref_title">Удалить старые сообщения</string>
-  <string name="pref_summary_delete_limit">сообщений в цепочке</string>
+  <string name="pref_summary_delete_limit">Сообщений в цепочке: <xliff:g id="count">%1$s</xliff:g></string>
   <string name="sms_delete_pref_title">Макс. количество СМС</string>
   <string name="mms_delete_pref_title">Макс. количество MMС</string>
   <string name="set">Сохранить</string>
@@ -917,7 +911,7 @@
   <string name="pref_quickmessage_summary">Автоматически открывать всплывающее окно быстрого ответа для входящих сообщений</string>
   <string name="pref_close_all_title">Закрыть всё</string>
   <string name="pref_close_all_summary">Кнопка «Закрыть» закрывает все сообщения</string>
-  <string name="message_counter">из</string>
+  <string name="message_counter">%1$d из %2$d</string>
   <!-- QM Dialog box buttons -->
   <string name="button_close">Закрыть</string>
   <string name="button_view">Просмотр</string>
@@ -926,9 +920,18 @@
   <!-- Hint text in message body field when keyboard is exposed -->
   <string name="type_to_reply_text_enter_to_send">Введите текст для ответа</string>
   <!-- QM Toast -->
-  <string name="toast_sending_message">Отправка сообщения</string>
+  <string name="toast_sending_message">Отправка сообщения\u2026</string>
   <!-- QM - Quick reply -->
   <string name="qm_quick_reply">Быстрый ответ</string>
   <string name="send">Отправить</string>
   <string name="compose_message_hint_text">Введите сообщение</string>
+  <!-- Audio Library Tab for MMS attachments -->
+  <string name="mediapicker_galleryChooserDescription_cm">Choose images or videos from this
+        device</string>
+  <string name="mediapicker_audioListChooserDescription">Выбрать аудио из этого устройства</string>
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Не удается прикрепить видео. Превышен максимальный размер сообщения.</string>
+  <string name="mediapicker_audio_list_title">Выбор аудио</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">Аудио выбрано.</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">Аудио выбрано.</string>
+  <string name="mediapicker_audio_list_title_selection">Выбрано: <xliff:g id="Count">%d</xliff:g>    </string>
 </resources>

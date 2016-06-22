@@ -46,7 +46,6 @@
   <string name="contact_list_send_to_text">Skicka till <xliff:g id="DESTINATION">%s</xliff:g></string>
   <string name="mediapicker_cameraChooserDescription">Ta bilder eller spela in video</string>
   <string name="mediapicker_galleryChooserDescription">Välj bilder eller videor från enheten</string>
-  <string name="mediapicker_audioListChooserDescription">Välj ljud från denna enhet</string>
   <string name="mediapicker_audioChooserDescription">Spela in ljud</string>
   <string name="mediapicker_gallery_title">Välj foto</string>
   <string name="mediapicker_gallery_item_selected_content_description">Video-/bildobjektet har markerats.</string>
@@ -55,12 +54,6 @@
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">bild <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
   <string name="mediapicker_gallery_image_item_description_no_date">bild</string>
-  <string name="mediapicker_gallery_image_item_attachment_too_large">Kan inte bifoga video.         Max meddelandestorlek överskrids.</string>
-  <string name="mediapicker_audio_list_title">Välj ljud</string>
-  <string name="mediapicker_audio_list_item_selected_content_description">Ljudet är valt.</string>
-  <string name="mediapicker_audio_list_item_unselected_content_description">Ljudet är omarkerade.</string>
-  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> har valts
-    </string>
   <string name="mediapicker_audio_title">Spela in ljud</string>
   <string name="action_share">Dela</string>
   <string name="posted_just_now">"Nyss"</string>
@@ -906,4 +899,14 @@
   <string name="qm_quick_reply">Snabbsvar</string>
   <string name="send">Skicka</string>
   <string name="compose_message_hint_text">Skriv meddelande</string>
+  <!-- Audio Library Tab for MMS attachments -->
+  <string name="mediapicker_galleryChooserDescription_cm">Choose images or videos from this
+        device</string>
+  <string name="mediapicker_audioListChooserDescription">Välj ljud från denna enhet</string>
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Kan inte bifoga video.         Max meddelandestorlek överskrids.</string>
+  <string name="mediapicker_audio_list_title">Välj ljud</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">Ljudet är valt.</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">Ljudet är omarkerade.</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> har valts
+    </string>
 </resources>

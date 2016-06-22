@@ -46,7 +46,6 @@
   <string name="contact_list_send_to_text">Wyślij pod numer <xliff:g id="DESTINATION">%s</xliff:g></string>
   <string name="mediapicker_cameraChooserDescription">Zrób zdjęcia lub nagraj film</string>
   <string name="mediapicker_galleryChooserDescription">Wybierz obrazy lub filmy z tego urządzenia</string>
-  <string name="mediapicker_audioListChooserDescription">Wybierz audio z tego urządzenia</string>
   <string name="mediapicker_audioChooserDescription">Nagraj dźwięk</string>
   <string name="mediapicker_gallery_title">Wybierz zdjęcie</string>
   <string name="mediapicker_gallery_item_selected_content_description">Plik multimedialny został wybrany.</string>
@@ -55,11 +54,6 @@
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">obraz – <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
   <string name="mediapicker_gallery_image_item_description_no_date">obraz</string>
-  <string name="mediapicker_gallery_image_item_attachment_too_large">Nie można dołączyć wideo. Przekroczono maksymalny rozmiar wiadomości.</string>
-  <string name="mediapicker_audio_list_title">Wybierz audio</string>
-  <string name="mediapicker_audio_list_item_selected_content_description">Plik audio został wybrany.</string>
-  <string name="mediapicker_audio_list_item_unselected_content_description">Plik audio nie został wybrany.</string>
-  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> wybrano</string>
   <string name="mediapicker_audio_title">Nagraj dźwięk</string>
   <string name="action_share">Udostępnij</string>
   <string name="posted_just_now">"W tej chwili"</string>
@@ -931,4 +925,13 @@
   <string name="qm_quick_reply">Szybka odpowiedź</string>
   <string name="send">Wyślij</string>
   <string name="compose_message_hint_text">Napisz wiadomość</string>
+  <!-- Audio Library Tab for MMS attachments -->
+  <string name="mediapicker_galleryChooserDescription_cm">Choose images or videos from this
+        device</string>
+  <string name="mediapicker_audioListChooserDescription">Wybierz audio z tego urządzenia</string>
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Nie można dołączyć wideo. Przekroczono maksymalny rozmiar wiadomości.</string>
+  <string name="mediapicker_audio_list_title">Wybierz audio</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">Plik audio został wybrany.</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">Plik audio nie został wybrany.</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> wybrano</string>
 </resources>

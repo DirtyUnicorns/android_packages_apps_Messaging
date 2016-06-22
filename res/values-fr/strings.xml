@@ -47,7 +47,6 @@
   <string name="mediapicker_cameraChooserDescription">Prendre des photos ou filmer une vidéo</string>
   <string name="mediapicker_galleryChooserDescription">Sélectionner des images ou des vidéos sur cet
         appareil</string>
-  <string name="mediapicker_audioListChooserDescription">Sélectionner un fichier audio sur cet appareil</string>
   <string name="mediapicker_audioChooserDescription">Enregistrer un fichier audio</string>
   <string name="mediapicker_gallery_title">Sélectionner une photo</string>
   <string name="mediapicker_gallery_item_selected_content_description">Le support est sélectionné.</string>
@@ -56,16 +55,6 @@
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">image <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
   <string name="mediapicker_gallery_image_item_description_no_date">image</string>
-  <string name="mediapicker_gallery_image_item_attachment_too_large">Impossible de joindre ce fichier vidéo.
-        Taille maximale de message dépassée.</string>
-  <string name="mediapicker_audio_list_title">Sélectionner un fichier audio</string>
-  <string name="mediapicker_audio_list_item_selected_content_description">Fichier audio sélectionné
-        .</string>
-  <string name="mediapicker_audio_list_item_unselected_content_description">Fichier audio
-        non sélectionné
-        .</string>
-  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> sélectionné
-    </string>
   <string name="mediapicker_audio_title">Enregistrer un fichier audio</string>
   <string name="action_share">Partager</string>
   <string name="posted_just_now">"À l'instant"</string>
@@ -911,4 +900,18 @@
   <string name="qm_quick_reply">Réponse rapide</string>
   <string name="send">Envoyer</string>
   <string name="compose_message_hint_text">Écrire le message</string>
+  <!-- Audio Library Tab for MMS attachments -->
+  <string name="mediapicker_galleryChooserDescription_cm">Choose images or videos from this
+        device</string>
+  <string name="mediapicker_audioListChooserDescription">Sélectionner un fichier audio sur cet appareil</string>
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Impossible de joindre ce fichier vidéo.
+        Taille maximale de message dépassée.</string>
+  <string name="mediapicker_audio_list_title">Sélectionner un fichier audio</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">Fichier audio sélectionné
+        .</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">Fichier audio
+        non sélectionné
+        .</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> sélectionné
+    </string>
 </resources>
