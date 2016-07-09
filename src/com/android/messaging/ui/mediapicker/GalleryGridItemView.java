@@ -68,18 +68,19 @@ public class GalleryGridItemView extends FrameLayout {
     private static long mMaxMessageSize = 0;
 
     private boolean checkSize() {
+        if (mData.isDocumentPickerItem()) {
+            return true;
+        }
         // only perform the check for videos, since they are not being compressed
         // images will be compressed, so exclude them from this check
 
         // determine the maximum message size, this will be computed only once per this class
-        Log.v(TAG, "GK: Setting MaxMessageSize:" + mMaxMessageSize);
         if (mMaxMessageSize == 0) {
             int subId = mHostInterface.getSubscriptionProviderSubId();
             mMaxMessageSize = MmsConfig.get(subId).getMaxMessageSize();
-            Log.v(TAG, "GK: Setting MaxMessageSize:" + mMaxMessageSize);
         }
 
-        long contentSize = UriUtil.getContentSize(mData.getImageUri());
+        long contentSize = mData.getContentSize();
         if (mHostInterface.isMultiSelectEnabled()) {
             if (mData.isVideoItem()) {
                 if (mHostInterface.isItemSelected(mData)) {
@@ -102,14 +103,12 @@ public class GalleryGridItemView extends FrameLayout {
             }
         }
 
-        Log.v(TAG, "GK: TotalContentSize:" + mTotalContentSize + " MaxMessageSize:" + mMaxMessageSize);
         if (mTotalContentSize > mMaxMessageSize) {
             mTotalContentSize -= contentSize;
             if (mTotalContentSize < 0) {
                 mTotalContentSize = 0;
             }
-            Log.v(TAG, "GK: " + getContext().getString(R.string
-                    .mediapicker_gallery_image_item_attachment_too_large));
+
             Toast.makeText(getContext(), getContext().
                     getString(R.string.mediapicker_gallery_image_item_attachment_too_large),
                     Toast.LENGTH_LONG).show();
