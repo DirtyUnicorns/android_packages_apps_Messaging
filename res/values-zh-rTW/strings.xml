@@ -874,8 +874,7 @@
   <string name="send">傳送</string>
   <string name="compose_message_hint_text">輸入訊息</string>
   <!-- Audio Library Tab for MMS attachments -->
-  <string name="mediapicker_galleryChooserDescription_cm">Choose images or videos from this
-        device</string>
+  <string name="mediapicker_galleryChooserDescription_cm">從此裝置中選擇圖片或影片</string>
   <string name="mediapicker_audioListChooserDescription">從此裝置中選擇音訊檔案</string>
   <string name="mediapicker_gallery_image_item_attachment_too_large">無法附屬影片         已達到最大訊息大小</string>
   <string name="mediapicker_audio_list_title">選擇音訊</string>

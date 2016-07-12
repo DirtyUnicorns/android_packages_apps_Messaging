@@ -900,8 +900,8 @@
   <string name="send">Küldés</string>
   <string name="compose_message_hint_text">Adja meg az üzenetet</string>
   <!-- Audio Library Tab for MMS attachments -->
-  <string name="mediapicker_galleryChooserDescription_cm">Choose images or videos from this
-        device</string>
+  <string name="mediapicker_galleryChooserDescription_cm">Képek vagy videók kiválasztása
+        erről az eszközről</string>
   <string name="mediapicker_audioListChooserDescription">Hangok kiválasztása erről az eszközről</string>
   <string name="mediapicker_gallery_image_item_attachment_too_large">Videó csatolása sikertelen.
         Max üzent méret elérve.</string>

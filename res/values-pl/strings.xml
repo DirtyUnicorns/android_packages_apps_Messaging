@@ -926,8 +926,7 @@
   <string name="send">Wyślij</string>
   <string name="compose_message_hint_text">Napisz wiadomość</string>
   <!-- Audio Library Tab for MMS attachments -->
-  <string name="mediapicker_galleryChooserDescription_cm">Choose images or videos from this
-        device</string>
+  <string name="mediapicker_galleryChooserDescription_cm">Wybierz obrazy lub filmy z tego urządzenia</string>
   <string name="mediapicker_audioListChooserDescription">Wybierz audio z tego urządzenia</string>
   <string name="mediapicker_gallery_image_item_attachment_too_large">Nie można dołączyć wideo. Przekroczono maksymalny rozmiar wiadomości.</string>
   <string name="mediapicker_audio_list_title">Wybierz audio</string>

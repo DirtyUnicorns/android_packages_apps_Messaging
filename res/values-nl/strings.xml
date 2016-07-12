@@ -900,8 +900,7 @@
   <string name="send">Verstuur</string>
   <string name="compose_message_hint_text">Schrijf een bericht</string>
   <!-- Audio Library Tab for MMS attachments -->
-  <string name="mediapicker_galleryChooserDescription_cm">Choose images or videos from this
-        device</string>
+  <string name="mediapicker_galleryChooserDescription_cm">Kies afbeeldingen of video\'s van dit apparaat</string>
   <string name="mediapicker_audioListChooserDescription">Kies audios van dit apparaat</string>
   <string name="mediapicker_gallery_image_item_attachment_too_large">Kan video niet toevoegen. Maximale grootte is overschreden.</string>
   <string name="mediapicker_audio_list_title">Kies audio</string>

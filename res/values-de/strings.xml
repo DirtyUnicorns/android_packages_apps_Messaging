@@ -900,8 +900,7 @@
   <string name="send">Senden</string>
   <string name="compose_message_hint_text">Nachricht eingeben</string>
   <!-- Audio Library Tab for MMS attachments -->
-  <string name="mediapicker_galleryChooserDescription_cm">Choose images or videos from this
-        device</string>
+  <string name="mediapicker_galleryChooserDescription_cm">Bilder oder Videos von diesem Gerät auswählen</string>
   <string name="mediapicker_audioListChooserDescription">Audios von diesem Gerät auswählen</string>
   <string name="mediapicker_gallery_image_item_attachment_too_large">Video kann nicht angehängt werden.
         Max. Nachrichtengröße überschritten.</string>
