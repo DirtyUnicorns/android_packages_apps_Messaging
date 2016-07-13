@@ -900,8 +900,7 @@
   <string name="send">Skicka</string>
   <string name="compose_message_hint_text">Skriv meddelande</string>
   <!-- Audio Library Tab for MMS attachments -->
-  <string name="mediapicker_galleryChooserDescription_cm">Choose images or videos from this
-        device</string>
+  <string name="mediapicker_galleryChooserDescription_cm">Välj bilder eller videor från enheten</string>
   <string name="mediapicker_audioListChooserDescription">Välj ljud från denna enhet</string>
   <string name="mediapicker_gallery_image_item_attachment_too_large">Kan inte bifoga video.         Max meddelandestorlek överskrids.</string>
   <string name="mediapicker_audio_list_title">Välj ljud</string>
