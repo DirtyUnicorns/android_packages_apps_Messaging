@@ -902,14 +902,13 @@
   <!-- Audio Library Tab for MMS attachments -->
   <string name="mediapicker_galleryChooserDescription_cm">Bu cihazdan resim veya video
         seçin</string>
-  <string name="mediapicker_audioListChooserDescription">Choose audios from this device</string>
+  <string name="mediapicker_audioListChooserDescription">Bu cihazdan ses dosyası seçin</string>
   <string name="mediapicker_gallery_image_item_attachment_too_large">Video eklenemiyor.         En büyük ileti boyutu aşıldı.</string>
   <string name="mediapicker_audio_list_title">Ses Seçin</string>
   <string name="mediapicker_audio_list_item_selected_content_description">Ses seçildi
         .</string>
-  <string name="mediapicker_audio_list_item_unselected_content_description">The audio is
-        unselected
-        .</string>
-  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected
+  <string name="mediapicker_audio_list_item_unselected_content_description">Ses
+        seçilmemiş.</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> seçildi
     </string>
 </resources>
