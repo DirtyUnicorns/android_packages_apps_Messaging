@@ -45,8 +45,7 @@
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
   <string name="contact_list_send_to_text">Enviar para <xliff:g id="DESTINATION">%s</xliff:g></string>
   <string name="mediapicker_cameraChooserDescription">Capturar imagens ou vídeo</string>
-  <string name="mediapicker_galleryChooserDescription">Choose images or videos from this
-        device</string>
+  <string name="mediapicker_galleryChooserDescription">Escolher imagens ou vídeos a partir deste dispositivo</string>
   <string name="mediapicker_audioChooserDescription">Gravar áudio</string>
   <string name="mediapicker_gallery_title">Escolher fotografia</string>
   <string name="mediapicker_gallery_item_selected_content_description">O ficheiro multimédia está selecionado.</string>
@@ -415,7 +414,7 @@
   <!-- Preference title: SMS enabled (Messaging is the default SMS app) -->
   <string name="sms_enabled_pref_title">Aplicação de SMS predefinida</string>
   <!-- Preference summary: Current default SMS app -->
-  <string name="default_sms_app"><xliff:g id="app_name">%s</xliff:g></string>
+  <string name="default_sms_app"><xliff:g id="app_name">%s </xliff:g></string>
   <!-- Preference title: MMS phone number -->
   <string name="mms_phone_number_pref_title">O seu número de telefone</string>
   <!-- Display text for phone number preference when the number is unknown -->
@@ -602,7 +601,7 @@
          send SMS messages. -->
   <string name="requires_sms_permissions_message">Esta aplicação não é permitida pelo proprietário do dispositivo.</string>
   <!-- Dialog button text that closes the application. -->
-  <string name="requires_sms_permissions_close_button">OK</string>
+  <string name="requires_sms_permissions_close_button">Ok</string>
   <!-- Toast text when creating a conversation with more participants than MMS/SMS config permits -->
   <string name="too_many_participants">Demasiados participantes numa conversa</string>
   <!-- Toast text when creating a conversation with an invalid participant -->
@@ -854,7 +853,7 @@
   <!-- The accessibility text read when the sim chooser pops up to read the current selected sim -->
   <string name="selected_sim_content_message"><xliff:g id="SELECTED_SIM">%s</xliff:g> selecionado</string>
   <!-- Swipe to delete -->
-  <string name="swipe_to_delete_conversation_pref_title">Swipe to delete</string>
+  <string name="swipe_to_delete_conversation_pref_title">Deslize para apagar</string>
   <string name="swipe_to_delete_conversation_pref_summary">Swipe to the right to delete a conversation</string>
   <!-- Strip unicode -->
   <string name="unicode_stripping_pref_title">Strip unicode</string>
