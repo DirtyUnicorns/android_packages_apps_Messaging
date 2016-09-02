@@ -968,14 +968,14 @@
   <!-- Lookup -->
   <string name="report_as_spam_to">Report as spam to %s</string>
   <!-- Storage specific Settings -->
-  <string name="sms_storage_pref_title">Storage</string>
+  <string name="sms_storage_pref_title">التخزين</string>
   <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
   <string name="auto_delete_pref_title">Delete old messages</string>
   <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> messages per conversation</string>
   <string name="sms_delete_pref_title">Text message limit</string>
   <string name="mms_delete_pref_title">Multimedia message limit</string>
-  <string name="set">Set</string>
-  <string name="no">Cancel</string>
+  <string name="set">تعيين</string>
+  <string name="no">إلغاء</string>
   <string name="pref_title_sms_delete">Text message limit</string>
   <string name="pref_title_mms_delete">Multimedia message limit</string>
   <string name="pref_messages_to_save">Set number of messages to save</string>
@@ -988,29 +988,29 @@
   <string name="pref_quickmessage">QuickMessage</string>
   <string name="pref_quickmessage_title">Show QuickMessage</string>
   <string name="pref_quickmessage_summary">Automatically open the QuickMessage pop-up for incoming SMS messages</string>
-  <string name="pref_close_all_title">Close all</string>
+  <string name="pref_close_all_title">إغلاق الكل</string>
   <string name="pref_close_all_summary">Close button closes all messages</string>
   <string name="message_counter">%1$d of %2$d</string>
   <!-- QM Dialog box buttons -->
-  <string name="button_close">Close</string>
-  <string name="button_view">View</string>
-  <string name="button_templates">Templates</string>
-  <string name="qm_button_full_conversation">Full conversation</string>
+  <string name="button_close">إغلاق</string>
+  <string name="button_view">عرض</string>
+  <string name="button_templates">قوالب</string>
+  <string name="qm_button_full_conversation">المحادثة كاملة</string>
   <!-- Hint text in message body field when keyboard is exposed -->
   <string name="type_to_reply_text_enter_to_send">Type to reply</string>
   <!-- QM Toast -->
   <string name="toast_sending_message">Sending message\u2026</string>
   <!-- QM - Quick reply -->
-  <string name="qm_quick_reply">Quick reply</string>
-  <string name="send">Send</string>
-  <string name="compose_message_hint_text">Enter message</string>
+  <string name="qm_quick_reply">الرد السريع</string>
+  <string name="send">ارسل</string>
+  <string name="compose_message_hint_text">أدخل رسالة</string>
   <!-- Audio Library Tab for MMS attachments -->
   <string name="mediapicker_galleryChooserDescription_cm">Choose images or videos from this
         device</string>
   <string name="mediapicker_audioListChooserDescription">Choose audios from this device</string>
   <string name="mediapicker_gallery_image_item_attachment_too_large">Can\'t attach video.
         Max message size exceeded.</string>
-  <string name="mediapicker_audio_list_title">Choose audio</string>
+  <string name="mediapicker_audio_list_title">اختر الصوت</string>
   <string name="mediapicker_audio_list_item_selected_content_description">The audio is selected
         .</string>
   <string name="mediapicker_audio_list_item_unselected_content_description">The audio is
