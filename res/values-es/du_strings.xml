@@ -20,14 +20,14 @@
   <string name="swipe_to_delete_conversation_pref_title">Deslizar para eliminar</string>
   <string name="swipe_to_delete_conversation_pref_summary">Deslizar hacia la derecha para borrar conversacion</string>
   <!-- Show emoticons -->
-  <string name="show_emoticons_pref_title">Emoticons access</string>
-  <string name="show_emoticons_pref_summary">Show the emoticons key on the keyboard</string>
+  <string name="show_emoticons_pref_title">Acceso a emoticonos</string>
+  <string name="show_emoticons_pref_summary">Mostrar el botón de emoticonos en el teclado</string>
   <!-- Audio Library Tab for MMS attachments -->
   <string name="mediapicker_galleryChooserDescription_cm">Seleccione imágenes o videos de este dispositivo</string>
   <string name="mediapicker_audioListChooserDescription">Elija archivos de audio de este dispositivo</string>
-  <string name="mediapicker_gallery_image_item_attachment_too_large">Can\'t attach video. Max message size exceeded.</string>
+  <string name="mediapicker_gallery_image_item_attachment_too_large">No se puede adjuntar el vídeo. Tamaño máximo del mensaje excedido.</string>
   <string name="mediapicker_audio_list_title">Elegir audio</string>
   <string name="mediapicker_audio_list_item_selected_content_description">El audio está seleccionado.</string>
-  <string name="mediapicker_audio_list_item_unselected_content_description">The audio is unselected.</string>
-  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">El audio no esta seleccionado.</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d </xliff:g> seleccionado</string>
 </resources>

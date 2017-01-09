@@ -24,7 +24,7 @@
   <string name="show_emoticons_pref_summary">Zeige die Emoticons-Taste auf der Tastatur</string>
   <!-- Audio Library Tab for MMS attachments -->
   <string name="mediapicker_galleryChooserDescription_cm">Bilder oder Videos von diesem Gerät auswählen</string>
-  <string name="mediapicker_audioListChooserDescription">Wählen Sie audio-Dateien von diesem Gerät</string>
+  <string name="mediapicker_audioListChooserDescription">Audio-Dateien von diesem Gerät auswählen</string>
   <string name="mediapicker_gallery_image_item_attachment_too_large">Kann Video nicht anhängen. Max. Nachrichtengröße überschritten.</string>
   <string name="mediapicker_audio_list_title">Audio auswählen</string>
   <string name="mediapicker_audio_list_item_selected_content_description">Der Ton wurde gewählt.</string>
