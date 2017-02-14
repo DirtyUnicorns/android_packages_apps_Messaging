@@ -15,6 +15,7 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!-- Swipe to delete conversation -->
     <string name="swipe_to_delete_conversation_pref_title">Swipe to delete</string>
     <string name="swipe_to_delete_conversation_pref_summary">Swipe to the right to delete a conversation</string>
@@ -31,4 +32,8 @@
     <string name="mediapicker_audio_list_item_selected_content_description">The audio is selected.</string>
     <string name="mediapicker_audio_list_item_unselected_content_description">The audio is unselected.</string>
     <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcuts_compose_new">New message</string>
+
 </resources>
