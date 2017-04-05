@@ -30,4 +30,6 @@
   <string name="mediapicker_audio_list_item_selected_content_description">Hang kiválasztva.</string>
   <string name="mediapicker_audio_list_item_unselected_content_description">Hang nincs kiválasztva.</string>
   <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> kiválasztva</string>
+  <!-- Shortcuts -->
+  <string name="shortcuts_compose_new">Új üzenet</string>
 </resources>
