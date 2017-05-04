@@ -30,4 +30,9 @@
   <string name="mediapicker_audio_list_item_selected_content_description">Fichier audio sélectionné</string>
   <string name="mediapicker_audio_list_item_unselected_content_description">Fichier audio non sélectionné</string>
   <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> sélectionné(s)</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcuts_compose_new">Nouveau message</string>
+
+    <string name="work_directory_display_name">Contacts du profil professionnel</string>
 </resources>
