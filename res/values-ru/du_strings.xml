@@ -30,4 +30,6 @@
   <string name="mediapicker_audio_list_item_selected_content_description">Аудио файл выбран</string>
   <string name="mediapicker_audio_list_item_unselected_content_description">Аудио файл не выбран</string>
   <string name="mediapicker_audio_list_title_selection">Выбрано: <xliff:g id="COUNT">%d</xliff:g></string>
+  <!-- Shortcuts -->
+  <string name="shortcuts_compose_new">Новое сообщение</string>
 </resources>
