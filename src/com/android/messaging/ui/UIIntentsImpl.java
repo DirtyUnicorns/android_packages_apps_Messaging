@@ -75,7 +75,7 @@ import com.android.messaging.util.UriUtil;
  */
 public class UIIntentsImpl extends UIIntents {
     private static final String CELL_BROADCAST_LIST_ACTIVITY =
-            "com.android.cellbroadcastreceiver.CellBroadcastListActivity";
+            "com.android.cellbroadcastreceiver.CellBroadcastSettings";
     private static final String CALL_TARGET_CLICK_KEY = "touchPoint";
     private static final String CALL_TARGET_CLICK_EXTRA_KEY =
             "android.telecom.extra.OUTGOING_CALL_EXTRAS";
