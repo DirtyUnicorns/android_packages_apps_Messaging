@@ -36,10 +36,10 @@ public class BlockedParticipantsActivity extends BugleActionBarActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    @Override
+    /*@Override
     public void onAttachFragment(final Fragment fragment) {
         Assert.isTrue(fragment instanceof BlockedParticipantsFragment);
-    }
+    }*/
 
     @Override
     public boolean onOptionsItemSelected(final MenuItem item) {
