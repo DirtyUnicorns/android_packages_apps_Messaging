@@ -334,7 +334,7 @@ Lütfen acil durum servislerine sesli arama yapın. <xliff:g id="number">%1$s</x
   <string name="one_on_one_outgoing_failed_message_prefix"><xliff:g id="contact">%s</xliff:g> tarafından bu mesaj gönderilemedi: <xliff:g id="message">%s</xliff:g>. Saat: <xliff:g id="time">%s</xliff:g>.</string>
   <string name="one_on_one_outgoing_successful_message_prefix"><xliff:g id="contact">%s</xliff:g> tarafından gönderilen mesaj: <xliff:g id="message">%s</xliff:g>. Saat: <xliff:g id="time">%s</xliff:g>.</string>
   <!-- Accessibility description for conversation list for group conversations -->
-  <string name="group_incoming_failed_message_prefix"><xliff:g id="sender">%s</xliff:g> tarafından gelen mesaj başarısız: <xliff:g id="message">%s</xliff:g>>. Saat: <xliff:g id="time">%s</xliff:g>. <xliff:g id="groupInfo">%s</xliff:g>.</string>
+  <string name="group_incoming_failed_message_prefix"><xliff:g id="sender">%s</xliff:g> tarafından gelen mesaj başarısız: <xliff:g id="message">%s</xliff:g>&gt;. Saat: <xliff:g id="time">%s</xliff:g>. <xliff:g id="groupInfo">%s</xliff:g>.</string>
   <string name="group_incoming_successful_message_prefix"><xliff:g id="sender">%s</xliff:g> tarafından gelen mesaj: <xliff:g id="message">%s</xliff:g>. Saat: <xliff:g id="time">%s</xliff:g>. <xliff:g id="groupInfo">%s</xliff:g>.</string>
   <string name="group_outgoing_draft_message_prefix"><xliff:g id="group">%s</xliff:g> adlı gruba mesaj gönderilmedi: <xliff:g id="message">%s</xliff:g>. Saat: <xliff:g id="time">%s</xliff:g>.</string>
   <string name="group_outgoing_sending_message_prefix"><xliff:g id="group">%s</xliff:g> adlı gruba mesaj gönderiliyor: <xliff:g id="message">%s</xliff:g>. Saat: <xliff:g id="time">%s</xliff:g>.</string>

@@ -129,7 +129,7 @@
   <string name="incoming_sender_content_description">Mensagem de <xliff:g id="sender">%s</xliff:g></string>
   <string name="outgoing_sender_content_description">Você enviou uma mensagem</string>
   <!-- While sending a message display this message. -->
-  <string name="message_status_sending">Sending&#8230;</string>
+  <string name="message_status_sending">Enviando&#8230;</string>
   <!-- When sending a message failed display this message. -->
   <string name="message_status_send_failed">Not sent. Tap to try again.</string>
   <!-- When retrying sending for a message. -->

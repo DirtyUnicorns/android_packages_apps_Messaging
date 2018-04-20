@@ -601,7 +601,7 @@
          send SMS messages. -->
   <string name="requires_sms_permissions_message">Deze app is niet toegestaan door de eigenaar van het apparaat.</string>
   <!-- Dialog button text that closes the application. -->
-  <string name="requires_sms_permissions_close_button">OK</string>
+  <string name="requires_sms_permissions_close_button">Oké</string>
   <!-- Toast text when creating a conversation with more participants than MMS/SMS config permits -->
   <string name="too_many_participants">Te veel deelnemers in een gesprek</string>
   <!-- Toast text when creating a conversation with an invalid participant -->
@@ -852,5 +852,5 @@
   <string name="link_display_format"><xliff:g id="TEXT">%1$s</xliff:g> (<xliff:g id="URL">%2$s</xliff:g>)</string>
   <!-- The accessibility text read when the sim chooser pops up to read the current selected sim -->
   <string name="selected_sim_content_message"><xliff:g id="SELECTED_SIM">%s</xliff:g> geselecteerd</string>
-  <string name="work_directory_display_name">Work Profile contacts</string>
+  <string name="work_directory_display_name">Contacten uit werkprofiel</string>
 </resources>
