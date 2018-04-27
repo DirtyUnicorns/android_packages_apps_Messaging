@@ -48,8 +48,8 @@
   <string name="mediapicker_galleryChooserDescription">Sélectionner des images sur cet appareil</string>
   <string name="mediapicker_audioChooserDescription">Enregistrer un fichier audio</string>
   <string name="mediapicker_gallery_title">Sélectionner une photo</string>
-  <string name="mediapicker_gallery_item_selected_content_description">Le support est sélectionné.</string>
-  <string name="mediapicker_gallery_item_unselected_content_description">Le support est désélectionné.</string>
+  <string name="mediapicker_gallery_item_selected_content_description">Le média est sélectionné</string>
+  <string name="mediapicker_gallery_item_unselected_content_description">Le média est désélectionné</string>
   <string name="mediapicker_gallery_title_selection"><xliff:g id="COUNT">%d</xliff:g> élément(s) sélectionné(s)</string>
   <!-- example: "image January 17 2015 1 59 pm" -->
   <string name="mediapicker_gallery_image_item_description">image <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
@@ -127,7 +127,7 @@
   <string name="outgoing_text_sender_content_description">Vous avez dit</string>
   <!-- Prefix for accessibility to indicate who the sender of text with hyperlinks, an attachment, or yet-to-be-downloaded message is. -->
   <string name="incoming_sender_content_description">Expéditeur du message : <xliff:g id="SENDER">%s</xliff:g></string>
-  <string name="outgoing_sender_content_description">Vous avez envoyé un message.</string>
+  <string name="outgoing_sender_content_description">Vous avez envoyé un message</string>
   <!-- While sending a message display this message. -->
   <string name="message_status_sending">Envoi en cours…</string>
   <!-- When sending a message failed display this message. -->
@@ -139,13 +139,13 @@
   <!-- When sending a message to an emergency number failed display this message in the conversation. -->
   <string name="message_status_send_failed_emergency_number">Veuillez appeler les services d\'urgence. Impossible d\'envoyer votre SMS pour l\'instant.</string>
   <!-- When showing resend action, display this message. -->
-  <string name="message_status_failed">Échec.</string>
+  <string name="message_status_failed">Échec</string>
   <!-- Title line for an MMS requiring manual download. -->
   <string name="message_title_manual_download">Nouveau MMS à télécharger</string>
   <!-- Title line for an MMS auto-downloading. -->
   <string name="message_title_downloading">Nouveau message MMS</string>
   <!-- Title line for MMS which failed to download. -->
-  <string name="message_title_download_failed">Téléchargement impossible.</string>
+  <string name="message_title_download_failed">Téléchargement impossible</string>
   <!-- Timestamp line for MMS which failed to download. -->
   <string name="message_status_download_failed">Appuyer ici pour réessayer</string>
   <!-- Timestamp line for MMS which failed to download. -->
@@ -155,18 +155,18 @@
   <!-- Timestamp line to display while downloading a message. -->
   <string name="message_status_downloading">Téléchargement en cours…</string>
   <!-- Timestamp line for MMS for expired or invalid message. -->
-  <string name="message_status_download_error">Le message est arrivé à expiration ou n\'est plus disponible.</string>
+  <string name="message_status_download_error">Le message est arrivé à expiration ou n\'est plus disponible</string>
   <!-- Display this info line with an MMS notification -->
   <string name="mms_info">taille : <xliff:g id="MESSAGESIZE">%1$s</xliff:g>, expiration : <xliff:g id="MESSAGEEXPIRE">%2$s</xliff:g></string>
   <!-- While sending a message, if it has invalid recipient, display this message. -->
   <string name="invalid_destination">Impossible d\'envoyer le message. Destinataire non valide.</string>
   <!-- While sending a message, this error is expected to be generated when user does not have
          MMS enabled on his account. [CHAR LIMIT=NONE] -->
-  <string name="service_not_activated">Service non activé sur le réseau.</string>
+  <string name="service_not_activated">Service non activé sur le réseau</string>
   <!-- If a message can't be sent because of a MMSC network problem, show this toast. [CHAR LIMIT=NONE] -->
-  <string name="service_network_problem">Impossible d\'envoyer le message en raison de problèmes sur le réseau.</string>
+  <string name="service_network_problem">Impossible d\'envoyer le message en raison de problèmes sur le réseau</string>
   <!-- If a message has expired and is no longer available on MMSC, show this toast. [CHAR LIMIT=NONE] -->
-  <string name="service_message_not_found">Le message est arrivé à expiration ou n\'est plus disponible.</string>
+  <string name="service_message_not_found">Le message est arrivé à expiration ou n\'est plus disponible</string>
   <!-- Download Manager -->
   <!-- When an error occurs downloading a new message and a subject isn't available, substitute
          this default subject. -->
@@ -177,21 +177,21 @@
   <string name="delivered_status_content_description">Distribué</string>
   <!-- When an error occurs downloading a new message, display this message.
          An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
-  <string name="dl_failure_notification">Impossible de télécharger le message \"<xliff:g id="SUBJECT">%1$s</xliff:g>" de l\'utilisateur suivant : <xliff:g id="FROM">%2$s</xliff:g>.</string>
+  <string name="dl_failure_notification">Impossible de télécharger le message \"<xliff:g id="SUBJECT">%1$s</xliff:g>" de l\'utilisateur suivant : <xliff:g id="FROM">%2$s</xliff:g></string>
   <!-- When a database error occurs due to low memory this toast is shown. -->
   <string name="low_memory">Impossible d\'effectuer cette opération dans la base de données. Mémoire insuffisante.</string>
   <!-- notification line 1 for "there are some failed messages" -->
-  <string name="notification_send_failures_line1_singular">Le message n\'a pas été envoyé.</string>
+  <string name="notification_send_failures_line1_singular">Le message n\'a pas été envoyé</string>
   <!-- notification line 1 for "there are some failed messages" -->
-  <string name="notification_send_failures_line1_plural">Certains messages n\'ont pas été envoyés via les SMS/MMS.</string>
+  <string name="notification_send_failures_line1_plural">Certains messages n\'ont pas été envoyés via les SMS/MMS</string>
   <plurals name="notification_send_failures">
     <item quantity="one"><xliff:g id="MESSAGES_1">%d</xliff:g> messages dans <xliff:g id="CONVERSATIONS">%d</xliff:g> conversation</item>
     <item quantity="other"><xliff:g id="MESSAGES_1">%d</xliff:g> messages dans <xliff:g id="CONVERSATIONS">%d</xliff:g> conversations</item>
   </plurals>
   <!-- notification line 1 for download failed -->
-  <string name="notification_download_failures_line1_singular">Message non téléchargé.</string>
+  <string name="notification_download_failures_line1_singular">Message non téléchargé</string>
   <!-- notification line 1 for multiple downloads failed -->
-  <string name="notification_download_failures_line1_plural">Certains messages n\'ont pas été téléchargés via les SMS/MMS.</string>
+  <string name="notification_download_failures_line1_plural">Certains messages n\'ont pas été téléchargés via les SMS/MMS</string>
   <plurals name="notification_download_failures">
     <item quantity="one"><xliff:g id="MESSAGES_1">%d</xliff:g> messages dans <xliff:g id="CONVERSATIONS">%d</xliff:g> conversation</item>
     <item quantity="other"><xliff:g id="MESSAGES_1">%d</xliff:g> messages dans <xliff:g id="CONVERSATIONS">%d</xliff:g> conversations</item>
@@ -207,12 +207,12 @@
   </plurals>
   <!-- Text for starting a new conversation button in the compose UI -->
   <string name="start_conversation">Démarrer</string>
-  <string name="camera_error_opening">Caméra indisponible.</string>
-  <string name="camera_error_unknown">Caméra indisponible.</string>
-  <string name="camera_error_video_init_fail">Enregistrement vidéo indisponible.</string>
+  <string name="camera_error_opening">Caméra indisponible</string>
+  <string name="camera_error_unknown">Caméra indisponible</string>
+  <string name="camera_error_video_init_fail">Enregistrement vidéo indisponible</string>
   <!-- Error message when we are unable to write a picture or video file because of an error writing to storage (usually because insufficient space) -->
-  <string name="camera_error_storage_fail">Impossible d\'enregistrer le fichier multimédia.</string>
-  <string name="camera_error_failure_taking_picture">Impossible de prendre la photo.</string>
+  <string name="camera_error_storage_fail">Impossible d\'enregistrer le fichier multimédia</string>
+  <string name="camera_error_failure_taking_picture">Impossible de prendre la photo</string>
   <!-- Content description text for Back button on the action bar -->
   <string name="back">Retour</string>
   <!-- Action menu title for showing archived conversations -->
@@ -236,7 +236,7 @@
   <!-- Action menu title for deleting failed message selected in conversation -->
   <string name="action_delete_message">Supprimer</string>
   <string name="delete_message_confirmation_dialog_title">Supprimer ce message ?</string>
-  <string name="delete_message_confirmation_dialog_text">Cette action est irréversible.</string>
+  <string name="delete_message_confirmation_dialog_text">Cette action est irréversible</string>
   <string name="delete_message_confirmation_button">Supprimer</string>
   <!-- Alert dialog title to accept or decline deleting conversation(s). -->
   <plurals name="delete_conversations_confirmation_dialog_title">
