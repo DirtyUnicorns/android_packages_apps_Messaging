@@ -421,7 +421,7 @@
   <!-- Action title: Close -->
   <string name="action_close">Zamknij</string>
   <!-- Preference category: MMS messaging -->
-  <string name="mms_messaging_category_pref_title">MMS</string>
+  <string name="mms_messaging_category_pref_title">Wiadomość MMS</string>
   <!-- Preference category: Advanced -->
   <string name="advanced_category_pref_title">Zaawansowane</string>
   <!-- Preference category: Debug -->
@@ -684,7 +684,7 @@
   <!-- Shown in conversation as the snippet when there is no text and an attached vcard. [CHAR LIMIT=25] -->
   <string name="conversation_list_snippet_vcard">Wizytówka</string>
   <!-- Indicates that the current message will be sent via MMS -->
-  <string name="mms_text">MMS</string>
+  <string name="mms_text">Wiadomość MMS</string>
   <!-- The string we display with the snack bar notification (very similar to toast) to undo the action that the notification is about. -->
   <string name="snack_bar_undo">Cofnij</string>
   <string name="snack_bar_retry">Ponów</string>
@@ -904,5 +904,5 @@
   <string name="link_display_format"><xliff:g id="TEXT">%1$s</xliff:g> (<xliff:g id="URL">%2$s</xliff:g>)</string>
   <!-- The accessibility text read when the sim chooser pops up to read the current selected sim -->
   <string name="selected_sim_content_message">Wybrano <xliff:g id="SELECTED_SIM">%s</xliff:g></string>
-  <string name="work_directory_display_name">Work Profile contacts</string>
+  <string name="work_directory_display_name">Kontakty w profilu służbowym</string>
 </resources>

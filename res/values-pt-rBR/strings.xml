@@ -61,16 +61,16 @@
   <!-- Abbreviated message to express that something occurred some number of minutes in the past (e.g., 5 minutes ago). -->
   <plurals name="num_minutes_ago">
     <item quantity="one"><xliff:g id="count">%d</xliff:g> minuto</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> mins</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> minutos</item>
   </plurals>
   <!-- Abbreviated message to express that something occurred some number of hours in the past (e.g., 5 hours ago). -->
   <plurals name="num_hours_ago">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> hour</item>
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> hora</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> horas</item>
   </plurals>
   <!-- Abbreviated message to express that something occurred some number of days in the past (e.g., 5 days ago). -->
   <plurals name="num_days_ago">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> day</item>
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> dia</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> dias</item>
   </plurals>
   <!--
@@ -79,19 +79,19 @@
     -->
   <plurals name="week_count">
     <!-- Singular case -->
-    <item quantity="one">a week</item>
+    <item quantity="one">uma semana</item>
     <!-- Plural case -->
     <item quantity="other"><xliff:g id="count">%d</xliff:g> semanas</item>
   </plurals>
   <plurals name="month_count">
     <!-- Singular case -->
-    <item quantity="one">a month</item>
+    <item quantity="one">um mês</item>
     <!-- Plural case -->
     <item quantity="other"><xliff:g id="count">%d</xliff:g> meses</item>
   </plurals>
   <plurals name="year_count">
     <!-- Singular case -->
-    <item quantity="one">a year</item>
+    <item quantity="one">um ano</item>
     <!-- Plural case -->
     <item quantity="other"><xliff:g id="count">%d</xliff:g> anos</item>
   </plurals>
@@ -105,7 +105,7 @@
   <!-- Text for SMS storage low notification and dialog -->
   <string name="sms_storage_low_text">O aplicativo Mensagens pode não enviar ou receber mensagens até que exista mais espaço disponível no dispositivo.</string>
   <!-- Ticker for SMS storage low notification -->
-  <string name="sms_storage_low_notification_ticker">Armazenamento SMS reduzido. Talvez você precise apagar mensagens.</string>
+  <string name="sms_storage_low_notification_ticker">Pouco espaço para armazenamento de SMS. Talvez você precise apagar mensagens.</string>
   <!-- Title for asking the user to enter their phone number -->
   <string name="enter_phone_number_title">Confirmar número de telefone</string>
   <!-- Text for asking the user to enter their phone number -->
@@ -243,8 +243,8 @@
   <string name="delete_message_confirmation_button">Apagar</string>
   <!-- Alert dialog title to accept or decline deleting conversation(s). -->
   <plurals name="delete_conversations_confirmation_dialog_title">
-    <item quantity="one">Delete this conversation?</item>
-    <item quantity="other">Apagar esta conversas?</item>
+    <item quantity="one">Apagar esta conversa?</item>
+    <item quantity="other">Apagar estas conversas?</item>
   </plurals>
   <!-- Alert dialog accept deleting this conversation button. -->
   <string name="delete_conversation_confirmation_button">Apagar</string>
@@ -292,8 +292,8 @@
   <string name="notification_reply_prompt">Responder</string>
   <!-- The bottom line on a wearable notification that shows how many participants in the conversation -->
   <plurals name="wearable_participant_count">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> participant</item>
-    <item quantity="other"><xliff:g id="Count_1">%d</xliff:g> participantes</item>
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> participante</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> participantes</item>
   </plurals>
   <!-- Shown in the Android Wear conversation log as the sender for outgoing messages,
          when we don't know the user's real name (e.g. no "Me" contact on the phone). -->
@@ -318,7 +318,7 @@
   <string name="toast_after_setting_default_sms_app">Definido com êxito como o aplicativo de SMS padrão.</string>
   <!-- Accessibility : Content descriptinon for ImageButtons and ImageViews -->
   <plurals name="attachment_preview_close_content_description">
-    <item quantity="one">Discard attachment</item>
+    <item quantity="one">Descartar anexo</item>
     <item quantity="other">Descartar anexos</item>
   </plurals>
   <string name="audio_attachment_content_description">Anexo de áudio</string>
