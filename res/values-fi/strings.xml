@@ -414,7 +414,7 @@
   <!-- Preference title: SMS enabled (Messaging is the default SMS app) -->
   <string name="sms_enabled_pref_title">Oletusarvoinen tekstiviestisovellus</string>
   <!-- Preference summary: Current default SMS app -->
-  <string name="default_sms_app"><xliff:g id="app_name">%s</xliff:g></string>
+  <string name="default_sms_app"><xliff:g id="sovelluksen_nimi">%s</xliff:g></string>
   <!-- Preference title: MMS phone number -->
   <string name="mms_phone_number_pref_title">Puhelinnumerosi</string>
   <!-- Display text for phone number preference when the number is unknown -->
@@ -852,5 +852,5 @@
   <string name="link_display_format"><xliff:g id="TEXT">%1$s</xliff:g> (<xliff:g id="URL">%2$s</xliff:g>)</string>
   <!-- The accessibility text read when the sim chooser pops up to read the current selected sim -->
   <string name="selected_sim_content_message"><xliff:g id="SELECTED_SIM">%s</xliff:g> valittu</string>
-  <string name="work_directory_display_name">Work Profile contacts</string>
+  <string name="work_directory_display_name">Työprofiilin yhteystiedot</string>
 </resources>
